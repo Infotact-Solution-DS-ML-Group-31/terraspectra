@@ -1,0 +1,32 @@
+{
+    "image_id": "3079",
+    "roi_type": "stem",
+    "spectral_bands": 204,
+    "spectral_axis": "zero_based_band_index",
+    "wavelength_calibration": "Unavailable for image 3079. No wavelength values assigned.",
+    "roi_description": {
+        "class_1": "Lesion-bearing stem",
+        "class_2": "Visually non-lesioned comparison stem; includes attached lower-left lateral branch/petiole."
+    },
+    "overlap_pixels": 0,
+    "class_1": {
+        "pixel_count": 30088,
+        "valid_measurements_per_band_min": 30088,
+        "valid_measurements_per_band_max": 30088,
+        "mean_value_min": 0.0749373510479927,
+        "mean_value_max": 0.7230141758918762
+    },
+    "class_2": {
+        "pixel_count": 30532,
+        "valid_measurements_per_band_min": 30532,
+        "valid_measurements_per_band_max": 30532,
+        "mean_value_min": 0.07316415756940842,
+        "mean_value_max": 0.8079825639724731
+    },
+    "interpretation_limitations": [
+        "The comparison ROI is visually non-lesioned, not confirmed healthy.",
+        "The two ROIs may differ anatomically and in illumination.",
+        "Pixel measurements are spatially correlated.",
+        "Spectral bands are not assigned verified wavelengths."
+    ]
+}

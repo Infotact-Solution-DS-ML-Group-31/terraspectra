@@ -1,0 +1,23 @@
+{
+    "image_id": "2436",
+    "cube_shape": [
+        512,
+        512,
+        204
+    ],
+    "leaf_pixels": 53854,
+    "total_spatial_pixels": 262144,
+    "leaf_area_percentage": 20.5437,
+    "pixels_outside_leaf_roi": 208290,
+    "spectral_bands": 204,
+    "total_measurements_inside_roi": 10986216,
+    "valid_measurements_inside_roi": 10986055,
+    "quality_flagged_measurements_inside_roi": 161,
+    "invalid_measurements_inside_roi": 161,
+    "wavelength_range_nm": [
+        397.32000732421875,
+        1003.5800170898438
+    ],
+    "outside_roi_handling": "NaN",
+    "original_preprocessed_cube_modified": false
+}

@@ -1,0 +1,15 @@
+{
+    "image_id": "2436",
+    "leaf_pixels": 53854,
+    "spectral_bands": 204,
+    "wavelength_range_nm": [
+        397.32000732421875,
+        1003.5800170898438
+    ],
+    "valid_measurements_per_band_min": 53693,
+    "valid_measurements_per_band_max": 53854,
+    "mean_reflectance_min": 0.04631323739886284,
+    "mean_reflectance_max": 0.4961980879306793,
+    "mean_reflectance_all_bands": 0.2564997673034668,
+    "nan_values_in_mean_spectrum": 0
+}

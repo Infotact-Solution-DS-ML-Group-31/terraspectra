@@ -1,0 +1,163 @@
+{
+    "image_id": 3079,
+    "cube_shape": [
+        512,
+        512,
+        204
+    ],
+    "spectral_band_count": 204,
+    "wavelength_calibration": "Unavailable for image 3079. All results use zero-based band indices.",
+    "lesion_roi_pixels": 30088,
+    "comparison_roi_pixels": 30532,
+    "comparison_roi_note": "Visually non-lesioned comparison stem. It includes an attached lower-left lateral branch/petiole.",
+    "statistics_note": "Percentiles and skewness describe pixel distributions within each ROI. Pixels are spatially correlated and must not be treated as independent biological replicates.",
+    "region_summaries": {
+        "initial_edge": {
+            "start_band": 0,
+            "end_band": 4,
+            "band_count": 5,
+            "lesion_mean_cv": 0.2672206788210415,
+            "lesion_mean_absolute_adjacent_change": 0.015573376789689064,
+            "lesion_mean_skewness": 0.6695937871932983,
+            "comparison_mean_cv": 0.19460999683355662,
+            "comparison_mean_absolute_adjacent_change": 0.01534990407526493,
+            "comparison_mean_skewness": 0.5707011390477419,
+            "average_absolute_roi_mean_difference": 0.0002530723810195923
+        },
+        "red_absorption": {
+            "start_band": 75,
+            "end_band": 98,
+            "band_count": 24,
+            "lesion_mean_cv": 0.5675185784047033,
+            "lesion_mean_absolute_adjacent_change": 0.0020836982876062393,
+            "lesion_mean_skewness": 1.979665959874789,
+            "comparison_mean_cv": 0.2521118292863943,
+            "comparison_mean_absolute_adjacent_change": 0.0027495470518867173,
+            "comparison_mean_skewness": 0.8490798696875572,
+            "average_absolute_roi_mean_difference": 0.015299479477107525
+        },
+        "nir_plateau": {
+            "start_band": 115,
+            "end_band": 175,
+            "band_count": 61,
+            "lesion_mean_cv": 0.188677167873505,
+            "lesion_mean_absolute_adjacent_change": 0.003307629804142186,
+            "lesion_mean_skewness": -0.9201780684658738,
+            "comparison_mean_cv": 0.18552114392552108,
+            "comparison_mean_absolute_adjacent_change": 0.0033420011645457783,
+            "comparison_mean_skewness": -2.298147690100748,
+            "average_absolute_roi_mean_difference": 0.09739630144150531
+        },
+        "upper_nir": {
+            "start_band": 175,
+            "end_band": 202,
+            "band_count": 28,
+            "lesion_mean_cv": 0.15190297769338937,
+            "lesion_mean_absolute_adjacent_change": 0.00792587867804936,
+            "lesion_mean_skewness": -0.7496777783547129,
+            "comparison_mean_cv": 0.16676034958672067,
+            "comparison_mean_absolute_adjacent_change": 0.008959646735872542,
+            "comparison_mean_skewness": -1.6135121967111314,
+            "average_absolute_roi_mean_difference": 0.049715976629938395
+        },
+        "final_edge": {
+            "start_band": 201,
+            "end_band": 203,
+            "band_count": 3,
+            "lesion_mean_cv": 0.14938602911488738,
+            "lesion_mean_absolute_adjacent_change": 0.07418110966682434,
+            "lesion_mean_skewness": -0.5757218400637308,
+            "comparison_mean_cv": 0.1548805450195522,
+            "comparison_mean_absolute_adjacent_change": 0.08300917347272237,
+            "comparison_mean_skewness": -1.0479445060094197,
+            "average_absolute_roi_mean_difference": 0.03144146998723348
+        }
+    },
+    "largest_adjacent_band_changes": {
+        "lesion": [
+            {
+                "band_index_0based": 203,
+                "absolute_adjacent_mean_change": 0.20702555775642395
+            },
+            {
+                "band_index_0based": 110,
+                "absolute_adjacent_mean_change": 0.03559437394142151
+            },
+            {
+                "band_index_0based": 109,
+                "absolute_adjacent_mean_change": 0.03422054648399353
+            },
+            {
+                "band_index_0based": 1,
+                "absolute_adjacent_mean_change": 0.033305488526821136
+            },
+            {
+                "band_index_0based": 107,
+                "absolute_adjacent_mean_change": 0.03234240412712097
+            },
+            {
+                "band_index_0based": 108,
+                "absolute_adjacent_mean_change": 0.031868964433670044
+            },
+            {
+                "band_index_0based": 106,
+                "absolute_adjacent_mean_change": 0.03179776668548584
+            },
+            {
+                "band_index_0based": 111,
+                "absolute_adjacent_mean_change": 0.03176257014274597
+            },
+            {
+                "band_index_0based": 105,
+                "absolute_adjacent_mean_change": 0.031492382287979126
+            },
+            {
+                "band_index_0based": 104,
+                "absolute_adjacent_mean_change": 0.031291380524635315
+            }
+        ],
+        "comparison": [
+            {
+                "band_index_0based": 203,
+                "absolute_adjacent_mean_change": 0.2317166030406952
+            },
+            {
+                "band_index_0based": 110,
+                "absolute_adjacent_mean_change": 0.04528471827507019
+            },
+            {
+                "band_index_0based": 109,
+                "absolute_adjacent_mean_change": 0.04393362998962402
+            },
+            {
+                "band_index_0based": 107,
+                "absolute_adjacent_mean_change": 0.04231327772140503
+            },
+            {
+                "band_index_0based": 104,
+                "absolute_adjacent_mean_change": 0.041986942291259766
+            },
+            {
+                "band_index_0based": 106,
+                "absolute_adjacent_mean_change": 0.04196688532829285
+            },
+            {
+                "band_index_0based": 105,
+                "absolute_adjacent_mean_change": 0.04184162616729736
+            },
+            {
+                "band_index_0based": 108,
+                "absolute_adjacent_mean_change": 0.04111433029174805
+            },
+            {
+                "band_index_0based": 103,
+                "absolute_adjacent_mean_change": 0.03991265594959259
+            },
+            {
+                "band_index_0based": 111,
+                "absolute_adjacent_mean_change": 0.039875030517578125
+            }
+        ]
+    },
+    "interpretation_warning": "Region flags identify areas for investigation only. They do not establish disease-specific bands or justify automatic band removal."
+}

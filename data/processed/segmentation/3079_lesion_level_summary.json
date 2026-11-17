@@ -1,0 +1,33 @@
+{
+    "image_id": "3079",
+    "annotation_method": "manual_polygon_restricted_to_stem",
+    "spatial_shape": [
+        512,
+        512
+    ],
+    "spectral_axis": "zero_based_band_indices",
+    "wavelength_calibration": "Unavailable for image 3079; band indices only.",
+    "roi_pixel_counts": {
+        "visible_lesion": 4137,
+        "visually_unaffected_adjacent_stem": 18661,
+        "lesion_bearing_stem_total": 30088,
+        "comparison_stem_total": 30532,
+        "unannotated_stem_margin": 7290
+    },
+    "excluded_polygon_pixels_outside_stem": {
+        "visible_lesion_polygon_excluded": 0,
+        "visually_unaffected_polygon_excluded": 620
+    },
+    "overlap_pixels": 0,
+    "polygon_vertices_count": {
+        "visible_lesion": 15,
+        "visually_unaffected_adjacent_stem": 13
+    },
+    "scientific_interpretation_notes": [
+        "ROI 1 corresponds to visually brown necrotic lesion tissue on the stem.",
+        "ROI 2 corresponds to visually unaffected adjacent stem tissue on the SAME stem; it is NOT confirmed healthy.",
+        "ROI 3 corresponds to the pre-existing comparison stem and lateral branch from 3079_roi_annotations.npz.",
+        "Both ROI 1 and ROI 2 were strictly restricted to lesion_bearing_stem_mask and have zero overlap.",
+        "All spectral analyses of image 3079 must use zero-based band indices without assuming wavelength calibration."
+    ]
+}

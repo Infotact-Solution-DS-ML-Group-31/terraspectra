@@ -1,0 +1,20 @@
+{
+    "image_id": "2436",
+    "source_rgb": "data\\raw\\tomato_botrytis\\raw_2436\\2436\\2436.png",
+    "image_shape": [
+        512,
+        512,
+        3
+    ],
+    "method": "Excess Green with Otsu threshold",
+    "exg_formula": "2G - R - B",
+    "otsu_threshold": 0.10907629132270813,
+    "minimum_component_area": 500,
+    "components_retained": 2,
+    "candidate_leaf_pixels": 53854,
+    "total_pixels": 262144,
+    "candidate_leaf_percentage": 20.543670654296875,
+    "mask_status": "candidate_requires_visual_and_alignment_validation",
+    "hyperspectral_alignment_verified": false,
+    "raw_data_modified": false
+}

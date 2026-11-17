@@ -1,0 +1,4 @@
+version,selected_band_count,first_original_band,last_original_band,lesion_overall_mean,comparison_overall_mean,mean_absolute_spectral_difference,lesion_average_band_std,comparison_average_band_std,lesion_values_finite,comparison_values_finite
+A_original_204_bands,204,0,203,0.38101038336753845,0.4189905524253845,0.04345506429672241,0.08217763155698776,0.07862156629562378,True,True
+B_remove_initial_3,201,3,203,0.3849503993988037,0.42350274324417114,0.04409828037023544,0.08298908174037933,0.07947653532028198,True,True
+C_remove_initial_3_and_final_1,200,3,202,0.384756863117218,0.42342469096183777,0.04424150288105011,0.08309807628393173,0.07956921309232712,True,True

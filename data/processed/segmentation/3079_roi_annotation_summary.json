@@ -1,0 +1,29 @@
+{
+    "image_id": "3079",
+    "annotation_method": "manual_polygon",
+    "spatial_shape": [
+        512,
+        512
+    ],
+    "visualization_band_indices_zero_based": [
+        69,
+        52,
+        18
+    ],
+    "roi_pixel_counts": {
+        "lesion_bearing_stem": 30088,
+        "comparison_stem": 30532
+    },
+    "raw_roi_pixel_counts_before_overlap_removal": {
+        "lesion_bearing_stem": 30088,
+        "comparison_stem": 30532
+    },
+    "overlap_pixels": 0,
+    "ambiguous_overlap_excluded_from_both_classes": true,
+    "polygon_count": 2,
+    "class_map_values": {
+        "0": "background_or_unassigned",
+        "1": "lesion_bearing_stem",
+        "2": "comparison_stem"
+    }
+}

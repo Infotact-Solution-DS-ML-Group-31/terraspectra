@@ -1,0 +1,97 @@
+{
+    "image_id": "3079",
+    "analysis_type": "three_region_lesion_level_spectral_profile",
+    "spatial_dimensions": [
+        512,
+        512
+    ],
+    "spectral_bands": 204,
+    "spectral_axis": "zero_based_band_index",
+    "wavelength_calibration": "Unavailable for image 3079. No wavelength values assigned.",
+    "region_pixel_counts": {
+        "visible_necrotic_lesion": 4137,
+        "visually_unaffected_adjacent_stem": 18661,
+        "preserved_comparison_stem": 30532,
+        "lesion_bearing_stem_total": 30088,
+        "unannotated_stem_margin": 7290,
+        "overlap_lesion_unaffected": 0
+    },
+    "data_quality": {
+        "visible_necrotic_lesion": {
+            "nan_count": 0,
+            "inf_count": 0,
+            "min_value": 0.0367431640625,
+            "max_value": 0.85693359375,
+            "total_pixel_measurements": 843948,
+            "valid_pixel_measurements": 843948
+        },
+        "visually_unaffected_adjacent_stem": {
+            "nan_count": 0,
+            "inf_count": 0,
+            "min_value": 0.0229949951171875,
+            "max_value": 0.96728515625,
+            "total_pixel_measurements": 3806844,
+            "valid_pixel_measurements": 3806844
+        },
+        "preserved_comparison_stem": {
+            "nan_count": 0,
+            "inf_count": 0,
+            "min_value": 0.0298004150390625,
+            "max_value": 1.0498046875,
+            "total_pixel_measurements": 6228528,
+            "valid_pixel_measurements": 6228528
+        }
+    },
+    "pairwise_spectral_divergence": {
+        "lesion_vs_adjacent_unaffected": {
+            "max_abs_diff_band": 121,
+            "max_abs_diff_value": 0.2511477768421173,
+            "lesion_mean_at_max_band": 0.4720405638217926,
+            "unaffected_mean_at_max_band": 0.7231883406639099,
+            "mean_abs_diff_all_bands": 0.11032295227050781,
+            "top_5_divergent_bands": [
+                121,
+                120,
+                125,
+                119,
+                122
+            ]
+        },
+        "lesion_vs_comparison_stem": {
+            "max_abs_diff_band": 121,
+            "max_abs_diff_value": 0.2982032597064972,
+            "lesion_mean_at_max_band": 0.4720405638217926,
+            "comparison_mean_at_max_band": 0.7702438235282898,
+            "mean_abs_diff_all_bands": 0.11787344515323639,
+            "top_5_divergent_bands": [
+                121,
+                120,
+                119,
+                122,
+                125
+            ]
+        },
+        "adjacent_unaffected_vs_comparison_stem": {
+            "max_abs_diff_band": 113,
+            "max_abs_diff_value": 0.051710307598114014,
+            "unaffected_mean_at_max_band": 0.5998501777648926,
+            "comparison_mean_at_max_band": 0.6515604853630066,
+            "mean_abs_diff_all_bands": 0.022488513961434364,
+            "top_5_divergent_bands": [
+                113,
+                114,
+                112,
+                115,
+                111
+            ]
+        }
+    },
+    "scientific_limitations_and_disclaimers": [
+        "These are descriptive measurements from a single hyperspectral cube (image 3079).",
+        "The visually annotated lesion is necrotic tissue, not laboratory-confirmed pathogen ground truth.",
+        "The visually unaffected adjacent stem tissue is not confirmed healthy tissue.",
+        "The preserved comparison stem is not confirmed healthy tissue.",
+        "Pixel measurements exhibit high spatial correlation and must not be treated as independent biological samples.",
+        "No disease-classification accuracy, predictive modeling, or forecasting capability has been demonstrated."
+    ]
+}

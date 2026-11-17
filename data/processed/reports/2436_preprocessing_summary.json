@@ -1,0 +1,24 @@
+{
+    "project": "TerraSpectra",
+    "image_id": "2436",
+    "input_file": "data\\raw\\tomato_botrytis\\2436.npz",
+    "output_file": "data\\processed\\cubes\\2436_preprocessed.npz",
+    "cube_shape": [
+        512,
+        512,
+        204
+    ],
+    "input_dtype": "float32",
+    "spectral_bands": 204,
+    "wavelength_min_nm": 397.32000732421875,
+    "wavelength_max_nm": 1003.5800170898438,
+    "quality_mask_status": "existing_mask_applied",
+    "total_measurements": 53477376,
+    "flagged_measurements": 1454,
+    "valid_measurements": 53475922,
+    "flagged_percentage": 0.002719,
+    "nonfinite_measurements_after_processing": 1454,
+    "normalization_applied": false,
+    "additional_calibration_applied": false,
+    "raw_data_modified": false
+}

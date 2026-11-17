@@ -25,7 +25,8 @@ env/
 
 # Dataset files
 data/raw/
-data/processed/
+data/processed/cubes/
+data/processed/**/*.npy
 data/mock/*.h5
 
 # Model weights

@@ -1,0 +1,23 @@
+{
+    "image_id": "2436",
+    "input_cube": "data\\processed\\cubes\\2436_preprocessed.npz",
+    "cube_shape": [
+        512,
+        512,
+        204
+    ],
+    "wavelength_count": 204,
+    "segmentation_method": "Otsu threshold on per-pixel median spectral intensity",
+    "valid_band_fraction_requirement": 0.95,
+    "otsu_threshold": 0.5333365797996521,
+    "candidate_leaf_pixels": 12963,
+    "other_pixels": 249181,
+    "candidate_leaf_percentage": 4.9449920654296875,
+    "rgb_band_indices_zero_based": [
+        69,
+        52,
+        18
+    ],
+    "mask_status": "candidate_requires_visual_inspection",
+    "raw_cube_modified": false
+}
