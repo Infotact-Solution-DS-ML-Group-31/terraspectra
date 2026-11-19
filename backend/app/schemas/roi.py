@@ -19,7 +19,8 @@ class DivergenceStats(BaseModel):
     max_abs_diff_band: int
     max_abs_diff_value: float
     lesion_mean_at_max_band: float
-    comparison_mean_at_max_band: float
+    comparison_mean_at_max_band: Optional[float] = None
+    unaffected_mean_at_max_band: Optional[float] = None
     mean_abs_diff_all_bands: float
     top_5_divergent_bands: List[int]
 

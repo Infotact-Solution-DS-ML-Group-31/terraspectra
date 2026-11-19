@@ -16,6 +16,10 @@ env/
 .env.*
 !.env.example
 
+# Frontend dependencies and build output
+node_modules/
+dist/
+
 # IDE settings
 .vscode/
 .idea/

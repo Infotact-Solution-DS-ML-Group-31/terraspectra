@@ -142,6 +142,10 @@ def test_quality_metrics():
     assert q_3079["has_values_exceeding_1"] is True
     assert q_3079["values_exceeding_1_count"] > 0
     assert len(q_3079["warnings"]) > 0
+    # Check updated scientific phrasing
+    joined_notes = " ".join(q_3079.get("scientific_notes", []))
+    assert "possible physical explanations" in joined_notes
+    assert "arbitrarily" not in joined_notes
 
     # Image 2436
     res_2436 = client.get("/api/datasets/2436/quality")
@@ -152,6 +156,17 @@ def test_quality_metrics():
     # Invalid ID
     res_inv = client.get("/api/datasets/9999/quality")
     assert res_inv.status_code == 404
+
+
+def test_cors_configuration():
+    """Verify CORS headers respond correctly to allowed local dev origins and reject unallowed."""
+    headers = {
+        "Origin": "http://localhost:5173",
+        "Access-Control-Request-Method": "GET"
+    }
+    res = client.options("/api/health", headers=headers)
+    assert res.headers.get("access-control-allow-origin") == "http://localhost:5173"
+    assert res.headers.get("access-control-allow-credentials") == "true"
 
 
 def test_reports_endpoints():

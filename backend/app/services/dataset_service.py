@@ -178,8 +178,8 @@ class DatasetService:
 
         scientific_notes = [
             "Measurements reflect author-normalized NPZ values and must not be assumed to be calibrated laboratory reflectance.",
-            "Values exceeding 1.0 typically result from specular reflections or lighting tilt on plant curvature relative to white reference plates.",
-            "Zero values were clipped or removed arbitrarily."
+            "Specular reflection or illumination geometry along curved stem surfaces are possible physical explanations for values exceeding 1.0, but their exact cause has not been conclusively established.",
+            "Measurements were preserved as provided in the NPZ archive without artificial clipping or arbitrary removal."
         ]
 
         return QualityMetricsResponse(
