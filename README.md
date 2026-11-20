@@ -13,15 +13,15 @@ The project aims to build a pipeline for hyperspectral data ingestion, preproces
 - [x] Synthetic hyperspectral dataset generation
 - [x] HDF5 data storage
 - [x] Dataset validation
-- [x] Exploratory Data Analysis
-- [x] Principal Component Analysis (PCA)
-- [ ] Real agricultural hyperspectral dataset integration
+- [x] Exploratory analysis and PCA on a synthetic 64-band dataset
+- [x] Local tomato hyperspectral data integration and real-data spectral analysis
+- [x] Independent, mask-aware PCA on eligible real 204-band cubes (see [real-data PCA report](docs/real_data_pca_report.md))
 - [ ] Baseline machine learning models
 - [ ] 3D-CNN implementation
 - [ ] Vision Transformer integration
 - [ ] Model evaluation
 - [ ] FastAPI inference backend
-- [ ] GIS dashboard
+- [ ] GIS dashboard (field geospatial data and georeferencing not yet available)
 
 ## Technology Stack
 
@@ -62,9 +62,9 @@ terraspectra/
 └── tests/
 ```
 
-## Current Dataset
+## Synthetic Development Dataset
 
-A synthetic hyperspectral dataset is currently being used to test the data pipeline.
+The synthetic dataset remains useful for software development and pipeline testing.
 
 - Image dimensions: 128 × 128 pixels
 - Spectral bands: 64
@@ -73,6 +73,14 @@ A synthetic hyperspectral dataset is currently being used to test the data pipel
 - Storage format: HDF5
 
 **Note:** The synthetic dataset is for software development and pipeline testing only. It does not represent real crop disease measurements or validated disease predictions.
+
+## Local Real Dataset and Analysis
+
+Three local tomato hyperspectral cubes are available (images 2436, 2973, and 3079), each with 204 bands and associated with *B. pseudocinerea*. Real-data spectral analyses are complete for the available supported tasks. Real-data PCA is fit separately per eligible cube using existing ROI/quality masks; cubes are not combined or spectrally aligned without evidence. Image 2436 alone has verified wavelengths (397.32–1003.58 nm); images 2973 and 3079 are represented only by zero-based band indices.
+
+Image 2973 currently has no appropriate local ROI mask and is skipped by real-cube PCA. The local cubes do not support supervised disease classification: they represent only one pathogen class, with no confirmed lesion/healthy labels. No model performance or disease forecasting is claimed. See the [real-data PCA and ML readiness report](docs/real_data_pca_report.md) and [dataset suitability assessment](docs/dataset_suitability_assessment.md).
+
+The synthetic PCA in `src/data/exploratory_analysis.py` is separate from the real-data PCA workflow in `src/data/analyze_real_cube_pca.py`.
 
 ## Running the Dataset Generator
 
@@ -94,7 +102,7 @@ python src/data/exploratory_analysis.py
 
 ## Project Status
 
-Under development.
+Under development. Baseline modeling remains blocked on class-diverse cubes, scientifically defensible plant-level labels, and validated evaluation data. 3D-CNN and Vision Transformer development has not begun. The available greenhouse cubes are not georeferenced field imagery; Rasterio/GeoTIFF field processing is not complete.
 
 ## Disclaimer
 
