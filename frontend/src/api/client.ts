@@ -12,6 +12,10 @@ import type {
   QualityMetricsResponse,
   ReportSummary,
   ReportDetail,
+  PcaCubeSummary,
+  PcaExplainedVarianceResponse,
+  PcaLoadingResponse,
+  PcaSpatialScoresResponse,
 } from '../types/api';
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -57,4 +61,19 @@ export const api = {
 
   getReport: (reportId: string): Promise<ReportDetail> =>
     apiFetch(`/api/reports/${reportId}`),
+
+  listPcaCubes: (): Promise<PcaCubeSummary[]> =>
+    apiFetch('/api/pca/cubes'),
+
+  getPcaSummary: (imageId: string): Promise<PcaCubeSummary> =>
+    apiFetch(`/api/pca/${imageId}/summary`),
+
+  getPcaExplainedVariance: (imageId: string): Promise<PcaExplainedVarianceResponse> =>
+    apiFetch(`/api/pca/${imageId}/explained-variance`),
+
+  getPcaLoadings: (imageId: string): Promise<PcaLoadingResponse> =>
+    apiFetch(`/api/pca/${imageId}/loadings`),
+
+  getPcaSpatialScores: (imageId: string, maxSize = 64): Promise<PcaSpatialScoresResponse> =>
+    apiFetch(`/api/pca/${imageId}/spatial-scores?max_size=${maxSize}`),
 };

@@ -7,6 +7,7 @@ import {
   Layers,
   ClipboardList,
   Microscope,
+  ScanLine,
 } from 'lucide-react';
 import type { ViewId } from '../types/api';
 
@@ -21,6 +22,7 @@ const NAV_ITEMS: NavItem[] = [
   { id: 'dataset-explorer', label: 'Dataset Explorer', icon: <Database size={18} /> },
   { id: 'spectral-analytics', label: 'Spectral Analytics', icon: <LineChart size={18} /> },
   { id: 'roi-comparison', label: 'ROI Comparison', icon: <Layers size={18} /> },
+  { id: 'pca-analysis', label: 'PCA Analysis', icon: <ScanLine size={18} /> },
   { id: 'quality-reports', label: 'Quality & Reports', icon: <ClipboardList size={18} /> },
 ];
 

@@ -169,6 +169,55 @@ def test_cors_configuration():
     assert res.headers.get("access-control-allow-credentials") == "true"
 
 
+def test_pca_endpoints():
+    """Verify saved real-cube PCA endpoints and unavailable cases."""
+    listed = client.get("/api/pca/cubes")
+    assert listed.status_code == 200
+    cubes = {cube["image_id"]: cube for cube in listed.json()}
+    assert cubes["2436"]["available"] is True
+    assert cubes["3079"]["available"] is True
+    assert cubes["2973"]["available"] is False
+
+    for image_id, expected_pc1 in (("2436", 57.66), ("3079", 73.22)):
+        summary = client.get(f"/api/pca/{image_id}/summary")
+        assert summary.status_code == 200
+        summary_data = summary.json()
+        assert summary_data["available"] is True
+        assert "independent" not in summary_data
+
+        variance = client.get(f"/api/pca/{image_id}/explained-variance")
+        assert variance.status_code == 200
+        variance_data = variance.json()
+        assert variance_data["independent_fit"] is True
+        assert len(variance_data["data"]) == 3
+        assert variance_data["data"][0]["component"] == "PC1"
+        assert abs(variance_data["data"][0]["explained_variance_ratio"] * 100 - expected_pc1) < 0.02
+
+        loadings = client.get(f"/api/pca/{image_id}/loadings")
+        assert loadings.status_code == 200
+        loading_data = loadings.json()
+        assert loading_data["independent_fit"] is True
+        assert len(loading_data["data"]) == 204
+        if image_id == "2436":
+            assert loading_data["spectral_axis"]["axis_type"] == "wavelength_nm"
+            assert abs(loading_data["data"][0]["spectral_position"] - 397.32) < 0.01
+        else:
+            assert loading_data["spectral_axis"]["axis_type"] == "zero_based_band_index"
+            assert loading_data["data"][0]["spectral_position"] == 0
+
+        spatial = client.get(f"/api/pca/{image_id}/spatial-scores?max_size=32")
+        assert spatial.status_code == 200
+        spatial_data = spatial.json()
+        assert spatial_data["downsampled_width"] == 32
+        assert spatial_data["downsampled_height"] == 32
+        assert len(spatial_data["data"]) == 1024
+
+    assert client.get("/api/pca/2973/summary").status_code == 404
+    assert client.get("/api/pca/9999/summary").status_code == 404
+    assert client.get("/api/pca/3079/spatial-scores?max_size=10").status_code == 422
+    assert client.get("/api/pca/3079/region-scores").status_code == 404
+
+
 def test_reports_endpoints():
     """Verify GET /api/reports listing and report retrieval."""
     res_list = client.get("/api/reports")

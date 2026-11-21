@@ -82,6 +82,27 @@ Image 2973 currently has no appropriate local ROI mask and is skipped by real-cu
 
 The synthetic PCA in `src/data/exploratory_analysis.py` is separate from the real-data PCA workflow in `src/data/analyze_real_cube_pca.py`.
 
+## PCA API and Dashboard
+
+The dashboard includes a dedicated **PCA Analysis** view for saved real-cube PCA artifacts:
+
+- Image 2436: independent PCA with verified wavelengths from 397.32 to 1003.58 nm.
+- Image 3079: independent PCA using zero-based band indices 0–203.
+- Image 2973: explicitly unavailable because no appropriate existing ROI mask was available.
+
+PCA results are served from `data/processed/pca/` and saved NPZ/CSV artifacts; the backend does not load or refit the original hyperspectral cubes for these endpoints.
+
+| Endpoint | Purpose |
+|---|---|
+| `GET /api/pca/cubes` | List available and unavailable PCA cubes |
+| `GET /api/pca/{image_id}/summary` | Retrieve per-cube PCA metadata |
+| `GET /api/pca/{image_id}/explained-variance` | Retrieve PC1–PC3 variance and cumulative variance |
+| `GET /api/pca/{image_id}/loadings` | Retrieve saved component loadings |
+| `GET /api/pca/{image_id}/spatial-scores?max_size=64` | Retrieve downsampled saved spatial score maps |
+| `GET /api/pca/{image_id}/region-scores` | Reserved availability check; 3079 structured distributions are not saved |
+
+PCA was fitted independently per cube. Component scores and loadings do not share a common basis and must not be compared across cubes. Components are exploratory mathematical components, not healthy/diseased classes. No disease classification, forecasting, or predictive accuracy is claimed.
+
 ## Running the Dataset Generator
 
 ```bash

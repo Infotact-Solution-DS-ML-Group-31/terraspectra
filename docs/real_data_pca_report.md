@@ -49,6 +49,22 @@ axes were interchangeable.
 - Image 3079 component_loadings: `outputs\figures\real_pca_3079_component_loadings.png`
 - Image 3079 region_score_distributions: `outputs\figures\real_pca_3079_region_score_distributions.png`
 
+## Application integration
+
+The FastAPI application exposes the saved PCA artifacts under `/api/pca/`:
+
+- `/api/pca/cubes`
+- `/api/pca/{image_id}/summary`
+- `/api/pca/{image_id}/explained-variance`
+- `/api/pca/{image_id}/loadings`
+- `/api/pca/{image_id}/spatial-scores`
+
+Spatial score maps are averaged into a bounded downsampled grid for dashboard
+visualization. The region-wise score-distribution figure for image 3079 is
+present, but it has no structured saved CSV/NPZ values, so the API does not
+fabricate or return per-pixel region distributions. The region-scores endpoint
+returns a meaningful 404 for unavailable structured data.
+
 ## Interpretation limits
 
 PCA is unsupervised dimensionality reduction, not classification. Components
