@@ -1,0 +1,852 @@
+{
+  "source_doi": "10.5281/zenodo.15800414",
+  "record_version": "1",
+  "record_id": 15800414,
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "selected_file_count": 16,
+  "selected_total_bytes": 2254793632,
+  "inspection_method": "Sequential MATLAB 5 MAT inspection using SciPy whosmat/loadmat; arrays released between files.",
+  "files": [
+    {
+      "filename": "Botrytis_cinerea_1.mat",
+      "source_doi": "10.5281/zenodo.15800414",
+      "source_url": "https://zenodo.org/api/records/15800414/files/Botrytis_cinerea_1.mat/content",
+      "file_id": "bbc21820-8d49-49d3-abc7-5a8a61784324",
+      "class": "Botrytis cinerea",
+      "file_size_bytes": 121763573,
+      "checksum": "md5:8b57769935247579fbfad0b9a87f1aae",
+      "checksum_verified": true,
+      "download_status": "acquired_checksum_verified",
+      "mat_version": "MATLAB 5.0 MAT-file",
+      "variables": [
+        "Day_one_1"
+      ],
+      "array_shapes": {
+        "Day_one_1": [
+          140,
+          280,
+          550
+        ]
+      },
+      "data_types": {
+        "Day_one_1": "float64"
+      },
+      "candidate_cube": true,
+      "spectral_band_count": 550,
+      "wavelength_available": false,
+      "wavelength_range_nm": null,
+      "biological_sample_id": null,
+      "biological_independence_status": "unknown; filenames and variable labels do not establish an independent plant",
+      "array_statistics": {
+        "Day_one_1": {
+          "nan_count": 0,
+          "inf_count": 0,
+          "finite_count": 21560000,
+          "min": 0.0,
+          "max": 4095.0,
+          "mean": 2033.9652200501966,
+          "std": 1044.0254852571331
+        }
+      },
+      "array_sha256": {
+        "Day_one_1": "ebdab73100eebfa2cea9e03b44c2bd6b7a0154659e4ade1c16c3ab1864083d18"
+      },
+      "known_limitations": [
+        "No plant, leaf, scan, replicate, or acquisition-date linkage is present in the file header or Zenodo record.",
+        "No wavelength vector or per-file wavelength calibration is present in the MAT variables.",
+        "Per-file reflectance/calibration procedure and reference arrays are not included or linked.",
+        "Class label is derived from the filename; no per-file laboratory ground-truth record is supplied.",
+        "Values span 0 to 4095; this is not evidence that the array is reflectance."
+      ]
+    },
+    {
+      "filename": "Botrytis_cinerea_2.mat",
+      "source_doi": "10.5281/zenodo.15800414",
+      "source_url": "https://zenodo.org/api/records/15800414/files/Botrytis_cinerea_2.mat/content",
+      "file_id": "3d01b608-c6dc-4034-93cb-05a8c1a6f0d1",
+      "class": "Botrytis cinerea",
+      "file_size_bytes": 122347407,
+      "checksum": "md5:1aa3e80b42f90c9170f7042e7f8f38bc",
+      "checksum_verified": true,
+      "download_status": "acquired_checksum_verified",
+      "mat_version": "MATLAB 5.0 MAT-file",
+      "variables": [
+        "Day_one_2"
+      ],
+      "array_shapes": {
+        "Day_one_2": [
+          140,
+          280,
+          550
+        ]
+      },
+      "data_types": {
+        "Day_one_2": "float64"
+      },
+      "candidate_cube": true,
+      "spectral_band_count": 550,
+      "wavelength_available": false,
+      "wavelength_range_nm": null,
+      "biological_sample_id": null,
+      "biological_independence_status": "unknown; filenames and variable labels do not establish an independent plant",
+      "array_statistics": {
+        "Day_one_2": {
+          "nan_count": 0,
+          "inf_count": 0,
+          "finite_count": 21560000,
+          "min": 0.0,
+          "max": 4095.0,
+          "mean": 1956.4163843589956,
+          "std": 1010.5780241894802
+        }
+      },
+      "array_sha256": {
+        "Day_one_2": "8cc7cbfa7f54f68f76b7a31baf538c0d253328f69cf7b27458870cee1962ac92"
+      },
+      "known_limitations": [
+        "No plant, leaf, scan, replicate, or acquisition-date linkage is present in the file header or Zenodo record.",
+        "No wavelength vector or per-file wavelength calibration is present in the MAT variables.",
+        "Per-file reflectance/calibration procedure and reference arrays are not included or linked.",
+        "Class label is derived from the filename; no per-file laboratory ground-truth record is supplied.",
+        "Values span 0 to 4095; this is not evidence that the array is reflectance."
+      ]
+    },
+    {
+      "filename": "Botrytis_cinerea_3.mat",
+      "source_doi": "10.5281/zenodo.15800414",
+      "source_url": "https://zenodo.org/api/records/15800414/files/Botrytis_cinerea_3.mat/content",
+      "file_id": "1277df58-0a6d-42aa-9901-baaaebb73a74",
+      "class": "Botrytis cinerea",
+      "file_size_bytes": 122233114,
+      "checksum": "md5:3b3becff259743a2b3f23abd5011afdc",
+      "checksum_verified": true,
+      "download_status": "acquired_checksum_verified",
+      "mat_version": "MATLAB 5.0 MAT-file",
+      "variables": [
+        "Day_three_1"
+      ],
+      "array_shapes": {
+        "Day_three_1": [
+          140,
+          280,
+          550
+        ]
+      },
+      "data_types": {
+        "Day_three_1": "float64"
+      },
+      "candidate_cube": true,
+      "spectral_band_count": 550,
+      "wavelength_available": false,
+      "wavelength_range_nm": null,
+      "biological_sample_id": null,
+      "biological_independence_status": "unknown; filenames and variable labels do not establish an independent plant",
+      "array_statistics": {
+        "Day_three_1": {
+          "nan_count": 0,
+          "inf_count": 0,
+          "finite_count": 21560000,
+          "min": 0.0,
+          "max": 4095.0,
+          "mean": 2005.5087686668785,
+          "std": 1032.0737011934732
+        }
+      },
+      "array_sha256": {
+        "Day_three_1": "2d52bd99b6b45878d8b90c4a6ec43cf55ae27b1522ea648543cc4bc861e1cf7e"
+      },
+      "known_limitations": [
+        "No plant, leaf, scan, replicate, or acquisition-date linkage is present in the file header or Zenodo record.",
+        "No wavelength vector or per-file wavelength calibration is present in the MAT variables.",
+        "Per-file reflectance/calibration procedure and reference arrays are not included or linked.",
+        "Class label is derived from the filename; no per-file laboratory ground-truth record is supplied.",
+        "Values span 0 to 4095; this is not evidence that the array is reflectance."
+      ]
+    },
+    {
+      "filename": "Botrytis_cinerea_4.mat",
+      "source_doi": "10.5281/zenodo.15800414",
+      "source_url": "https://zenodo.org/api/records/15800414/files/Botrytis_cinerea_4.mat/content",
+      "file_id": "5b0b85b3-3a0f-4de0-ba89-e8c083cad313",
+      "class": "Botrytis cinerea",
+      "file_size_bytes": 120454561,
+      "checksum": "md5:ae673ee5f627f244aedab5506a1243ec",
+      "checksum_verified": true,
+      "download_status": "acquired_checksum_verified",
+      "mat_version": "MATLAB 5.0 MAT-file",
+      "variables": [
+        "Day_three_2"
+      ],
+      "array_shapes": {
+        "Day_three_2": [
+          140,
+          280,
+          550
+        ]
+      },
+      "data_types": {
+        "Day_three_2": "float64"
+      },
+      "candidate_cube": true,
+      "spectral_band_count": 550,
+      "wavelength_available": false,
+      "wavelength_range_nm": null,
+      "biological_sample_id": null,
+      "biological_independence_status": "unknown; filenames and variable labels do not establish an independent plant",
+      "array_statistics": {
+        "Day_three_2": {
+          "nan_count": 0,
+          "inf_count": 0,
+          "finite_count": 21560000,
+          "min": 0.0,
+          "max": 4095.0,
+          "mean": 2049.027142663186,
+          "std": 1061.7871487356022
+        }
+      },
+      "array_sha256": {
+        "Day_three_2": "d5a68ea71611bebdcb9bea62b3d5db2263926f6dacba46eeb712613f52bf6e50"
+      },
+      "known_limitations": [
+        "No plant, leaf, scan, replicate, or acquisition-date linkage is present in the file header or Zenodo record.",
+        "No wavelength vector or per-file wavelength calibration is present in the MAT variables.",
+        "Per-file reflectance/calibration procedure and reference arrays are not included or linked.",
+        "Class label is derived from the filename; no per-file laboratory ground-truth record is supplied.",
+        "Values span 0 to 4095; this is not evidence that the array is reflectance."
+      ]
+    },
+    {
+      "filename": "Botrytis_cinerea_5.mat",
+      "source_doi": "10.5281/zenodo.15800414",
+      "source_url": "https://zenodo.org/api/records/15800414/files/Botrytis_cinerea_5.mat/content",
+      "file_id": "e81c066a-d620-4246-92c0-b5041001ed60",
+      "class": "Botrytis cinerea",
+      "file_size_bytes": 122270326,
+      "checksum": "md5:35490f2c842f7fb44ca017ee919d00a9",
+      "checksum_verified": true,
+      "download_status": "acquired_checksum_verified",
+      "mat_version": "MATLAB 5.0 MAT-file",
+      "variables": [
+        "Day_five_1"
+      ],
+      "array_shapes": {
+        "Day_five_1": [
+          140,
+          280,
+          550
+        ]
+      },
+      "data_types": {
+        "Day_five_1": "float64"
+      },
+      "candidate_cube": true,
+      "spectral_band_count": 550,
+      "wavelength_available": false,
+      "wavelength_range_nm": null,
+      "biological_sample_id": null,
+      "biological_independence_status": "unknown; filenames and variable labels do not establish an independent plant",
+      "array_statistics": {
+        "Day_five_1": {
+          "nan_count": 0,
+          "inf_count": 0,
+          "finite_count": 21560000,
+          "min": 0.0,
+          "max": 4095.0,
+          "mean": 1973.4782802844704,
+          "std": 1019.0142204591385
+        }
+      },
+      "array_sha256": {
+        "Day_five_1": "e53420e58d7d04a6c0811adbf4267910061216f9a33c8a07d8d4d8cd3d2502b8"
+      },
+      "known_limitations": [
+        "No plant, leaf, scan, replicate, or acquisition-date linkage is present in the file header or Zenodo record.",
+        "No wavelength vector or per-file wavelength calibration is present in the MAT variables.",
+        "Per-file reflectance/calibration procedure and reference arrays are not included or linked.",
+        "Class label is derived from the filename; no per-file laboratory ground-truth record is supplied.",
+        "Values span 0 to 4095; this is not evidence that the array is reflectance."
+      ]
+    },
+    {
+      "filename": "Botrytis_cinerea_6.mat",
+      "source_doi": "10.5281/zenodo.15800414",
+      "source_url": "https://zenodo.org/api/records/15800414/files/Botrytis_cinerea_6.mat/content",
+      "file_id": "eaa2d569-e201-4035-b237-3d6b1c3b5eb8",
+      "class": "Botrytis cinerea",
+      "file_size_bytes": 120628089,
+      "checksum": "md5:2aa2656828c4aef6fae65eb550a1e5b5",
+      "checksum_verified": true,
+      "download_status": "acquired_checksum_verified",
+      "mat_version": "MATLAB 5.0 MAT-file",
+      "variables": [
+        "Day_five_2"
+      ],
+      "array_shapes": {
+        "Day_five_2": [
+          140,
+          280,
+          550
+        ]
+      },
+      "data_types": {
+        "Day_five_2": "float64"
+      },
+      "candidate_cube": true,
+      "spectral_band_count": 550,
+      "wavelength_available": false,
+      "wavelength_range_nm": null,
+      "biological_sample_id": null,
+      "biological_independence_status": "unknown; filenames and variable labels do not establish an independent plant",
+      "array_statistics": {
+        "Day_five_2": {
+          "nan_count": 0,
+          "inf_count": 0,
+          "finite_count": 21560000,
+          "min": 0.0,
+          "max": 4095.0,
+          "mean": 2026.7804496144713,
+          "std": 1053.619275884381
+        }
+      },
+      "array_sha256": {
+        "Day_five_2": "e8edc9734ebee517014f1c59d3d0819655b09e164eb7232b622bf3221d8ccf2d"
+      },
+      "known_limitations": [
+        "No plant, leaf, scan, replicate, or acquisition-date linkage is present in the file header or Zenodo record.",
+        "No wavelength vector or per-file wavelength calibration is present in the MAT variables.",
+        "Per-file reflectance/calibration procedure and reference arrays are not included or linked.",
+        "Class label is derived from the filename; no per-file laboratory ground-truth record is supplied.",
+        "Values span 0 to 4095; this is not evidence that the array is reflectance."
+      ]
+    },
+    {
+      "filename": "Botrytis_cinerea_7.mat",
+      "source_doi": "10.5281/zenodo.15800414",
+      "source_url": "https://zenodo.org/api/records/15800414/files/Botrytis_cinerea_7.mat/content",
+      "file_id": "2401285c-7374-48ec-b9b7-1433be9a0984",
+      "class": "Botrytis cinerea",
+      "file_size_bytes": 118958903,
+      "checksum": "md5:3b32de55cd99646c4eb533fb8d9e0dda",
+      "checksum_verified": true,
+      "download_status": "acquired_checksum_verified",
+      "mat_version": "MATLAB 5.0 MAT-file",
+      "variables": [
+        "Day_seven_1"
+      ],
+      "array_shapes": {
+        "Day_seven_1": [
+          140,
+          280,
+          550
+        ]
+      },
+      "data_types": {
+        "Day_seven_1": "float64"
+      },
+      "candidate_cube": true,
+      "spectral_band_count": 550,
+      "wavelength_available": false,
+      "wavelength_range_nm": null,
+      "biological_sample_id": null,
+      "biological_independence_status": "unknown; filenames and variable labels do not establish an independent plant",
+      "array_statistics": {
+        "Day_seven_1": {
+          "nan_count": 0,
+          "inf_count": 0,
+          "finite_count": 21560000,
+          "min": 0.0,
+          "max": 4095.0,
+          "mean": 2112.1520839883024,
+          "std": 1091.5354252959505
+        }
+      },
+      "array_sha256": {
+        "Day_seven_1": "c9419d1c4e805b4a496cdd6a0a5f228d503d9b6c85c21c1497262db758e4cebe"
+      },
+      "known_limitations": [
+        "No plant, leaf, scan, replicate, or acquisition-date linkage is present in the file header or Zenodo record.",
+        "No wavelength vector or per-file wavelength calibration is present in the MAT variables.",
+        "Per-file reflectance/calibration procedure and reference arrays are not included or linked.",
+        "Class label is derived from the filename; no per-file laboratory ground-truth record is supplied.",
+        "Values span 0 to 4095; this is not evidence that the array is reflectance."
+      ]
+    },
+    {
+      "filename": "Botrytis_cinerea_8.mat",
+      "source_doi": "10.5281/zenodo.15800414",
+      "source_url": "https://zenodo.org/api/records/15800414/files/Botrytis_cinerea_8.mat/content",
+      "file_id": "c9e21f0a-a8a1-4a2c-bbe6-6c7addc7892a",
+      "class": "Botrytis cinerea",
+      "file_size_bytes": 121514703,
+      "checksum": "md5:6d18e767fae987686266aa231d3ada7f",
+      "checksum_verified": true,
+      "download_status": "acquired_checksum_verified",
+      "mat_version": "MATLAB 5.0 MAT-file",
+      "variables": [
+        "Day_seven_2"
+      ],
+      "array_shapes": {
+        "Day_seven_2": [
+          140,
+          280,
+          550
+        ]
+      },
+      "data_types": {
+        "Day_seven_2": "float64"
+      },
+      "candidate_cube": true,
+      "spectral_band_count": 550,
+      "wavelength_available": false,
+      "wavelength_range_nm": null,
+      "biological_sample_id": null,
+      "biological_independence_status": "unknown; filenames and variable labels do not establish an independent plant",
+      "array_statistics": {
+        "Day_seven_2": {
+          "nan_count": 0,
+          "inf_count": 0,
+          "finite_count": 21560000,
+          "min": 0.0,
+          "max": 4095.0,
+          "mean": 2038.9101414658026,
+          "std": 1052.0361194815025
+        }
+      },
+      "array_sha256": {
+        "Day_seven_2": "2fd805776e002985333e93477182b9d70bd5329328af43760a694d6e0d19b2cd"
+      },
+      "known_limitations": [
+        "No plant, leaf, scan, replicate, or acquisition-date linkage is present in the file header or Zenodo record.",
+        "No wavelength vector or per-file wavelength calibration is present in the MAT variables.",
+        "Per-file reflectance/calibration procedure and reference arrays are not included or linked.",
+        "Class label is derived from the filename; no per-file laboratory ground-truth record is supplied.",
+        "Values span 0 to 4095; this is not evidence that the array is reflectance."
+      ]
+    },
+    {
+      "filename": "Healthy_1.mat",
+      "source_doi": "10.5281/zenodo.15800414",
+      "source_url": "https://zenodo.org/api/records/15800414/files/Healthy_1.mat/content",
+      "file_id": "7a7a12fb-2f8c-4a6b-8822-fa6c345e9cbd",
+      "class": "Healthy control",
+      "file_size_bytes": 160689583,
+      "checksum": "md5:e55b73666d43cd2b6f38fa2eaf10d532",
+      "checksum_verified": true,
+      "download_status": "acquired_checksum_verified",
+      "mat_version": "MATLAB 5.0 MAT-file",
+      "variables": [
+        "Day_one_1"
+      ],
+      "array_shapes": {
+        "Day_one_1": [
+          140,
+          280,
+          550
+        ]
+      },
+      "data_types": {
+        "Day_one_1": "float64"
+      },
+      "candidate_cube": true,
+      "spectral_band_count": 550,
+      "wavelength_available": false,
+      "wavelength_range_nm": null,
+      "biological_sample_id": null,
+      "biological_independence_status": "unknown; exact numeric array duplicate of Healthy_6.mat",
+      "array_statistics": {
+        "Day_one_1": {
+          "nan_count": 0,
+          "inf_count": 0,
+          "finite_count": 21560000,
+          "min": 0.0,
+          "max": 0.7944624794682191,
+          "mean": 0.23539874592476537,
+          "std": 0.13636817258471357
+        }
+      },
+      "array_sha256": {
+        "Day_one_1": "1842d6250042010d252082ce61ac1707ff179ea041b21f35ca82d959e7b0caaa"
+      },
+      "known_limitations": [
+        "No plant, leaf, scan, replicate, or acquisition-date linkage is present in the file header or Zenodo record.",
+        "No wavelength vector or per-file wavelength calibration is present in the MAT variables.",
+        "Per-file reflectance/calibration procedure and reference arrays are not included or linked.",
+        "Class label is derived from the filename; no per-file laboratory ground-truth record is supplied.",
+        "Array content is byte-identical after numeric load to Healthy_6.mat despite different filename/day label; biological independence and timepoint interpretation are unresolved.",
+        "Values span below 1; this differs by orders of magnitude from the Botrytis-named arrays and is not evidence that the array is reflectance."
+      ]
+    },
+    {
+      "filename": "Healthy_2.mat",
+      "source_doi": "10.5281/zenodo.15800414",
+      "source_url": "https://zenodo.org/api/records/15800414/files/Healthy_2.mat/content",
+      "file_id": "c25296ca-2ad3-479b-9e97-6481c0a2ec94",
+      "class": "Healthy control",
+      "file_size_bytes": 160560820,
+      "checksum": "md5:c5bc67afa8ce02c2becccf87a3925508",
+      "checksum_verified": true,
+      "download_status": "acquired_checksum_verified",
+      "mat_version": "MATLAB 5.0 MAT-file",
+      "variables": [
+        "Day_one_2"
+      ],
+      "array_shapes": {
+        "Day_one_2": [
+          140,
+          280,
+          550
+        ]
+      },
+      "data_types": {
+        "Day_one_2": "float64"
+      },
+      "candidate_cube": true,
+      "spectral_band_count": 550,
+      "wavelength_available": false,
+      "wavelength_range_nm": null,
+      "biological_sample_id": null,
+      "biological_independence_status": "unknown; exact numeric array duplicate of Healthy_5.mat",
+      "array_statistics": {
+        "Day_one_2": {
+          "nan_count": 0,
+          "inf_count": 0,
+          "finite_count": 21560000,
+          "min": 8.736218593255994e-05,
+          "max": 0.7619459339856509,
+          "mean": 0.22414448218893127,
+          "std": 0.12417312750692996
+        }
+      },
+      "array_sha256": {
+        "Day_one_2": "a973538c4bd4ef911d89154fd013fb00bfcd2bbbab4fe3836101573a826359bf"
+      },
+      "known_limitations": [
+        "No plant, leaf, scan, replicate, or acquisition-date linkage is present in the file header or Zenodo record.",
+        "No wavelength vector or per-file wavelength calibration is present in the MAT variables.",
+        "Per-file reflectance/calibration procedure and reference arrays are not included or linked.",
+        "Class label is derived from the filename; no per-file laboratory ground-truth record is supplied.",
+        "Array content is byte-identical after numeric load to Healthy_5.mat despite different filename/day label; biological independence and timepoint interpretation are unresolved.",
+        "Values span below 1; this differs by orders of magnitude from the Botrytis-named arrays and is not evidence that the array is reflectance."
+      ]
+    },
+    {
+      "filename": "Healthy_3.mat",
+      "source_doi": "10.5281/zenodo.15800414",
+      "source_url": "https://zenodo.org/api/records/15800414/files/Healthy_3.mat/content",
+      "file_id": "0b6eb4a3-b124-4025-8b62-654abd6ace9d",
+      "class": "Healthy control",
+      "file_size_bytes": 160858502,
+      "checksum": "md5:8fab75879297658d645c15ba0be6ddfc",
+      "checksum_verified": true,
+      "download_status": "acquired_checksum_verified",
+      "mat_version": "MATLAB 5.0 MAT-file",
+      "variables": [
+        "Day_three_1"
+      ],
+      "array_shapes": {
+        "Day_three_1": [
+          140,
+          280,
+          550
+        ]
+      },
+      "data_types": {
+        "Day_three_1": "float64"
+      },
+      "candidate_cube": true,
+      "spectral_band_count": 550,
+      "wavelength_available": false,
+      "wavelength_range_nm": null,
+      "biological_sample_id": null,
+      "biological_independence_status": "unknown; exact numeric array duplicate of Healthy_7.mat",
+      "array_statistics": {
+        "Day_three_1": {
+          "nan_count": 0,
+          "inf_count": 0,
+          "finite_count": 21560000,
+          "min": 0.0,
+          "max": 0.7792823635349214,
+          "mean": 0.23599498108825842,
+          "std": 0.137774936511824
+        }
+      },
+      "array_sha256": {
+        "Day_three_1": "3cefc2bc19179744d5a33d952a3c920d971e380e34e22e18441ed8c67116c447"
+      },
+      "known_limitations": [
+        "No plant, leaf, scan, replicate, or acquisition-date linkage is present in the file header or Zenodo record.",
+        "No wavelength vector or per-file wavelength calibration is present in the MAT variables.",
+        "Per-file reflectance/calibration procedure and reference arrays are not included or linked.",
+        "Class label is derived from the filename; no per-file laboratory ground-truth record is supplied.",
+        "Array content is byte-identical after numeric load to Healthy_7.mat despite different filename/day label; biological independence and timepoint interpretation are unresolved.",
+        "Values span below 1; this differs by orders of magnitude from the Botrytis-named arrays and is not evidence that the array is reflectance."
+      ]
+    },
+    {
+      "filename": "Healthy_4.mat",
+      "source_doi": "10.5281/zenodo.15800414",
+      "source_url": "https://zenodo.org/api/records/15800414/files/Healthy_4.mat/content",
+      "file_id": "be30cf32-50e8-489d-95fe-64df1ef990d4",
+      "class": "Healthy control",
+      "file_size_bytes": 160202571,
+      "checksum": "md5:571e5aca948484b588df402e52d4b930",
+      "checksum_verified": true,
+      "download_status": "acquired_checksum_verified",
+      "mat_version": "MATLAB 5.0 MAT-file",
+      "variables": [
+        "Day_three_2"
+      ],
+      "array_shapes": {
+        "Day_three_2": [
+          140,
+          280,
+          550
+        ]
+      },
+      "data_types": {
+        "Day_three_2": "float64"
+      },
+      "candidate_cube": true,
+      "spectral_band_count": 550,
+      "wavelength_available": false,
+      "wavelength_range_nm": null,
+      "biological_sample_id": null,
+      "biological_independence_status": "unknown; exact numeric array duplicate of Healthy_8.mat",
+      "array_statistics": {
+        "Day_three_2": {
+          "nan_count": 0,
+          "inf_count": 0,
+          "finite_count": 21560000,
+          "min": 0.0,
+          "max": 0.7478300691966614,
+          "mean": 0.21635130300287853,
+          "std": 0.10645805132263876
+        }
+      },
+      "array_sha256": {
+        "Day_three_2": "631801a7ea53cb8ed7f3ed88bac94c4cfbd5200f40388baffd3c184358abca18"
+      },
+      "known_limitations": [
+        "No plant, leaf, scan, replicate, or acquisition-date linkage is present in the file header or Zenodo record.",
+        "No wavelength vector or per-file wavelength calibration is present in the MAT variables.",
+        "Per-file reflectance/calibration procedure and reference arrays are not included or linked.",
+        "Class label is derived from the filename; no per-file laboratory ground-truth record is supplied.",
+        "Array content is byte-identical after numeric load to Healthy_8.mat despite different filename/day label; biological independence and timepoint interpretation are unresolved.",
+        "Values span below 1; this differs by orders of magnitude from the Botrytis-named arrays and is not evidence that the array is reflectance."
+      ]
+    },
+    {
+      "filename": "Healthy_5.mat",
+      "source_doi": "10.5281/zenodo.15800414",
+      "source_url": "https://zenodo.org/api/records/15800414/files/Healthy_5.mat/content",
+      "file_id": "80125984-89a0-45cf-98c6-e81aef3b15eb",
+      "class": "Healthy control",
+      "file_size_bytes": 160560821,
+      "checksum": "md5:e8ba3484d8c23dbdc28799bc85f06a8b",
+      "checksum_verified": true,
+      "download_status": "acquired_checksum_verified",
+      "mat_version": "MATLAB 5.0 MAT-file",
+      "variables": [
+        "Day_five_1"
+      ],
+      "array_shapes": {
+        "Day_five_1": [
+          140,
+          280,
+          550
+        ]
+      },
+      "data_types": {
+        "Day_five_1": "float64"
+      },
+      "candidate_cube": true,
+      "spectral_band_count": 550,
+      "wavelength_available": false,
+      "wavelength_range_nm": null,
+      "biological_sample_id": null,
+      "biological_independence_status": "unknown; exact numeric array duplicate of Healthy_2.mat",
+      "array_statistics": {
+        "Day_five_1": {
+          "nan_count": 0,
+          "inf_count": 0,
+          "finite_count": 21560000,
+          "min": 8.736218593255994e-05,
+          "max": 0.7619459339856509,
+          "mean": 0.22414448218893127,
+          "std": 0.12417312750692996
+        }
+      },
+      "array_sha256": {
+        "Day_five_1": "a973538c4bd4ef911d89154fd013fb00bfcd2bbbab4fe3836101573a826359bf"
+      },
+      "known_limitations": [
+        "No plant, leaf, scan, replicate, or acquisition-date linkage is present in the file header or Zenodo record.",
+        "No wavelength vector or per-file wavelength calibration is present in the MAT variables.",
+        "Per-file reflectance/calibration procedure and reference arrays are not included or linked.",
+        "Class label is derived from the filename; no per-file laboratory ground-truth record is supplied.",
+        "Array content is byte-identical after numeric load to Healthy_2.mat despite different filename/day label; biological independence and timepoint interpretation are unresolved.",
+        "Values span below 1; this differs by orders of magnitude from the Botrytis-named arrays and is not evidence that the array is reflectance."
+      ]
+    },
+    {
+      "filename": "Healthy_6.mat",
+      "source_doi": "10.5281/zenodo.15800414",
+      "source_url": "https://zenodo.org/api/records/15800414/files/Healthy_6.mat/content",
+      "file_id": "cfe27a6a-54c1-4674-bb01-0bc66dfab2e3",
+      "class": "Healthy control",
+      "file_size_bytes": 160689586,
+      "checksum": "md5:90201764ecd5a4871d3b364063afad63",
+      "checksum_verified": true,
+      "download_status": "acquired_checksum_verified",
+      "mat_version": "MATLAB 5.0 MAT-file",
+      "variables": [
+        "Day_five_2"
+      ],
+      "array_shapes": {
+        "Day_five_2": [
+          140,
+          280,
+          550
+        ]
+      },
+      "data_types": {
+        "Day_five_2": "float64"
+      },
+      "candidate_cube": true,
+      "spectral_band_count": 550,
+      "wavelength_available": false,
+      "wavelength_range_nm": null,
+      "biological_sample_id": null,
+      "biological_independence_status": "unknown; exact numeric array duplicate of Healthy_1.mat",
+      "array_statistics": {
+        "Day_five_2": {
+          "nan_count": 0,
+          "inf_count": 0,
+          "finite_count": 21560000,
+          "min": 0.0,
+          "max": 0.7944624794682191,
+          "mean": 0.23539874592476537,
+          "std": 0.13636817258471357
+        }
+      },
+      "array_sha256": {
+        "Day_five_2": "1842d6250042010d252082ce61ac1707ff179ea041b21f35ca82d959e7b0caaa"
+      },
+      "known_limitations": [
+        "No plant, leaf, scan, replicate, or acquisition-date linkage is present in the file header or Zenodo record.",
+        "No wavelength vector or per-file wavelength calibration is present in the MAT variables.",
+        "Per-file reflectance/calibration procedure and reference arrays are not included or linked.",
+        "Class label is derived from the filename; no per-file laboratory ground-truth record is supplied.",
+        "Array content is byte-identical after numeric load to Healthy_1.mat despite different filename/day label; biological independence and timepoint interpretation are unresolved.",
+        "Values span below 1; this differs by orders of magnitude from the Botrytis-named arrays and is not evidence that the array is reflectance."
+      ]
+    },
+    {
+      "filename": "Healthy_7.mat",
+      "source_doi": "10.5281/zenodo.15800414",
+      "source_url": "https://zenodo.org/api/records/15800414/files/Healthy_7.mat/content",
+      "file_id": "f0fd0ee8-29fd-4274-a944-31149cf2f99e",
+      "class": "Healthy control",
+      "file_size_bytes": 160858503,
+      "checksum": "md5:3f8aec5cd0f61e644ee96042fbc21b83",
+      "checksum_verified": true,
+      "download_status": "acquired_checksum_verified",
+      "mat_version": "MATLAB 5.0 MAT-file",
+      "variables": [
+        "Day_seven_1"
+      ],
+      "array_shapes": {
+        "Day_seven_1": [
+          140,
+          280,
+          550
+        ]
+      },
+      "data_types": {
+        "Day_seven_1": "float64"
+      },
+      "candidate_cube": true,
+      "spectral_band_count": 550,
+      "wavelength_available": false,
+      "wavelength_range_nm": null,
+      "biological_sample_id": null,
+      "biological_independence_status": "unknown; exact numeric array duplicate of Healthy_3.mat",
+      "array_statistics": {
+        "Day_seven_1": {
+          "nan_count": 0,
+          "inf_count": 0,
+          "finite_count": 21560000,
+          "min": 0.0,
+          "max": 0.7792823635349214,
+          "mean": 0.23599498108825842,
+          "std": 0.137774936511824
+        }
+      },
+      "array_sha256": {
+        "Day_seven_1": "3cefc2bc19179744d5a33d952a3c920d971e380e34e22e18441ed8c67116c447"
+      },
+      "known_limitations": [
+        "No plant, leaf, scan, replicate, or acquisition-date linkage is present in the file header or Zenodo record.",
+        "No wavelength vector or per-file wavelength calibration is present in the MAT variables.",
+        "Per-file reflectance/calibration procedure and reference arrays are not included or linked.",
+        "Class label is derived from the filename; no per-file laboratory ground-truth record is supplied.",
+        "Array content is byte-identical after numeric load to Healthy_3.mat despite different filename/day label; biological independence and timepoint interpretation are unresolved.",
+        "Values span below 1; this differs by orders of magnitude from the Botrytis-named arrays and is not evidence that the array is reflectance."
+      ]
+    },
+    {
+      "filename": "Healthy_8.mat",
+      "source_doi": "10.5281/zenodo.15800414",
+      "source_url": "https://zenodo.org/api/records/15800414/files/Healthy_8.mat/content",
+      "file_id": "de3b16b4-f2bc-4e54-b444-e491c73989a0",
+      "class": "Healthy control",
+      "file_size_bytes": 160202570,
+      "checksum": "md5:d75a9a574ebc3596aa8f97fee2b894fa",
+      "checksum_verified": true,
+      "download_status": "acquired_checksum_verified",
+      "mat_version": "MATLAB 5.0 MAT-file",
+      "variables": [
+        "Day_seven_2"
+      ],
+      "array_shapes": {
+        "Day_seven_2": [
+          140,
+          280,
+          550
+        ]
+      },
+      "data_types": {
+        "Day_seven_2": "float64"
+      },
+      "candidate_cube": true,
+      "spectral_band_count": 550,
+      "wavelength_available": false,
+      "wavelength_range_nm": null,
+      "biological_sample_id": null,
+      "biological_independence_status": "unknown; exact numeric array duplicate of Healthy_4.mat",
+      "array_statistics": {
+        "Day_seven_2": {
+          "nan_count": 0,
+          "inf_count": 0,
+          "finite_count": 21560000,
+          "min": 0.0,
+          "max": 0.7478300691966614,
+          "mean": 0.21635130300287853,
+          "std": 0.10645805132263876
+        }
+      },
+      "array_sha256": {
+        "Day_seven_2": "631801a7ea53cb8ed7f3ed88bac94c4cfbd5200f40388baffd3c184358abca18"
+      },
+      "known_limitations": [
+        "No plant, leaf, scan, replicate, or acquisition-date linkage is present in the file header or Zenodo record.",
+        "No wavelength vector or per-file wavelength calibration is present in the MAT variables.",
+        "Per-file reflectance/calibration procedure and reference arrays are not included or linked.",
+        "Class label is derived from the filename; no per-file laboratory ground-truth record is supplied.",
+        "Array content is byte-identical after numeric load to Healthy_4.mat despite different filename/day label; biological independence and timepoint interpretation are unresolved.",
+        "Values span below 1; this differs by orders of magnitude from the Botrytis-named arrays and is not evidence that the array is reflectance."
+      ]
+    }
+  ]
+}
