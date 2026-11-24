@@ -1,0 +1,1403 @@
+{
+  "script_version": "1.0.0",
+  "execution_timestamp_utc": "2026-11-24T10:48:58.416724+00:00",
+  "runtime_seconds": 91.103,
+  "source_manifest_reference": "data/processed/reports/phase_f2_acquisition_manifest.json",
+  "source_doi": "10.5281/zenodo.15800414",
+  "record_version": "1",
+  "license": "cc-by-4.0",
+  "raw_root": "data/raw/external/zenodo_15800414",
+  "files_expected": 16,
+  "files_inspected": 16,
+  "checksum_matches": 16,
+  "checksum_failures": 0,
+  "valid_3d_candidates": 16,
+  "unique_array_count": 12,
+  "duplicate_group_count": 4,
+  "duplicate_groups": [
+    {
+      "duplicate_group_id": "DG-001",
+      "cube_hash": "1571dad6387ed1f5145d61c5116075b6b350baad4fdcac1ef4cc93cc156e52db",
+      "file_count": 1,
+      "filenames": [
+        "Botrytis_cinerea_4.mat"
+      ],
+      "unique_array": true
+    },
+    {
+      "duplicate_group_id": "DG-002",
+      "cube_hash": "35a01aaef7d3b67e97177b00642ef6cbdd799f6afdbfec1783b4d2e32443a473",
+      "file_count": 1,
+      "filenames": [
+        "Botrytis_cinerea_7.mat"
+      ],
+      "unique_array": true
+    },
+    {
+      "duplicate_group_id": "DG-003",
+      "cube_hash": "4ccb5b89b02b095f3bbb17cab36a3a2373ea6a777ea3b9e9ac4f1889b6c0dac8",
+      "file_count": 2,
+      "filenames": [
+        "Healthy_1.mat",
+        "Healthy_6.mat"
+      ],
+      "unique_array": true
+    },
+    {
+      "duplicate_group_id": "DG-004",
+      "cube_hash": "59374bfdf97e68398220ba08bed530cf3b95623ca9b87ab6da3519caa09e331e",
+      "file_count": 2,
+      "filenames": [
+        "Healthy_3.mat",
+        "Healthy_7.mat"
+      ],
+      "unique_array": true
+    },
+    {
+      "duplicate_group_id": "DG-005",
+      "cube_hash": "7956f8b1cbc61bf5bf6b3bdc3ac9f32f9a31c7cc0b06fe7d04fbc0378b5cfcf0",
+      "file_count": 2,
+      "filenames": [
+        "Healthy_2.mat",
+        "Healthy_5.mat"
+      ],
+      "unique_array": true
+    },
+    {
+      "duplicate_group_id": "DG-006",
+      "cube_hash": "8382785d865ad7249b722002e4614bdaca1ebd871584b1ab45e9c15a7888b199",
+      "file_count": 1,
+      "filenames": [
+        "Botrytis_cinerea_1.mat"
+      ],
+      "unique_array": true
+    },
+    {
+      "duplicate_group_id": "DG-007",
+      "cube_hash": "853f14e0f2a4c33593c63a892a95cd055d7f192a9eeccc34af1fb8e4bf91f002",
+      "file_count": 1,
+      "filenames": [
+        "Botrytis_cinerea_8.mat"
+      ],
+      "unique_array": true
+    },
+    {
+      "duplicate_group_id": "DG-008",
+      "cube_hash": "a45aa2aedb76e09e88cc9e86d4dcfa0ca3db37bacdf3b3c26003abb31617dd83",
+      "file_count": 1,
+      "filenames": [
+        "Botrytis_cinerea_2.mat"
+      ],
+      "unique_array": true
+    },
+    {
+      "duplicate_group_id": "DG-009",
+      "cube_hash": "b6991221f009c2bd428c4d326f385cfd39df9d31c73999e6c460de0b36ba9686",
+      "file_count": 1,
+      "filenames": [
+        "Botrytis_cinerea_3.mat"
+      ],
+      "unique_array": true
+    },
+    {
+      "duplicate_group_id": "DG-010",
+      "cube_hash": "cd40fc386e90afcec5ac209c0f7c2d46d938002063b2b28bcdaf008b463e5bbd",
+      "file_count": 2,
+      "filenames": [
+        "Healthy_4.mat",
+        "Healthy_8.mat"
+      ],
+      "unique_array": true
+    },
+    {
+      "duplicate_group_id": "DG-011",
+      "cube_hash": "e32c1d621b744a15d0fee0a7881e39ecfa0a2f1f38b48f69b9c2c745640f91ff",
+      "file_count": 1,
+      "filenames": [
+        "Botrytis_cinerea_6.mat"
+      ],
+      "unique_array": true
+    },
+    {
+      "duplicate_group_id": "DG-012",
+      "cube_hash": "f7be8aff72f6a4ebee5f8d781343b96fbcae55cb826ff2856781935fccc8fbde",
+      "file_count": 1,
+      "filenames": [
+        "Botrytis_cinerea_5.mat"
+      ],
+      "unique_array": true
+    }
+  ],
+  "file_results": [
+    {
+      "filename": "Botrytis_cinerea_1.mat",
+      "original_filename": "Botrytis_cinerea_1.mat",
+      "source_class": "Botrytis cinerea",
+      "provisional_class": "Botrytis cinerea",
+      "resolved_relative_path": "botrytis_cinerea/Botrytis_cinerea_1.mat",
+      "file_id": "bbc21820-8d49-49d3-abc7-5a8a61784324",
+      "exists": true,
+      "file_size_bytes": 121763573,
+      "md5": "8b57769935247579fbfad0b9a87f1aae",
+      "sha256": "5a71ba7ed24295bb0497d66ab5e3f4f80422103b791e166614048fbdbe44e4b4",
+      "md5_status": "match",
+      "variables": [
+        {
+          "name": "Day_one_1",
+          "dimensions": [
+            140,
+            280,
+            550
+          ],
+          "matlab_type": "double"
+        }
+      ],
+      "numeric_3d_candidate_names": [
+        "Day_one_1"
+      ],
+      "candidate_cube_status": "unambiguous",
+      "numeric_3d_candidate_count": 1,
+      "other_numeric_array_count": 0,
+      "mat_variables": [
+        {
+          "name": "Day_one_1",
+          "dimensions": [
+            140,
+            280,
+            550
+          ],
+          "matlab_type": "double"
+        }
+      ],
+      "cube_variable_name": "Day_one_1",
+      "cube_dimensions": [
+        140,
+        280,
+        550
+      ],
+      "cube_dtype": "float64",
+      "cube_statistics": {
+        "finite_element_count": 21560000,
+        "total_element_count": 21560000,
+        "nan_count": 0,
+        "positive_infinity_count": 0,
+        "negative_infinity_count": 0,
+        "zero_count": 34,
+        "negative_value_count": 0,
+        "min_finite": 0.0,
+        "max_finite": 4095.0,
+        "mean_finite": 2033.9652200501966,
+        "std_finite": 1044.0254852571331,
+        "q01": 295.166271440506,
+        "q05": 524.070404103597,
+        "q25": 1115.5012389500935,
+        "q50": 2045.4439058303828,
+        "q75": 2913.420728588104,
+        "q95": 3871.6616635322575,
+        "q99": 4095.0
+      },
+      "cube_hash": "8382785d865ad7249b722002e4614bdaca1ebd871584b1ab45e9c15a7888b199",
+      "band_profile_status": "provisional_550_axis_from_array_shape_and_source_documentation",
+      "band_profile_path": "data/processed/external/zenodo_15800414/band_profiles/Botrytis_cinerea_1_band_profile.csv",
+      "band_profile_units": "array units not wavelength units; no wavelength vector",
+      "duplicate_group_id": "DG-006",
+      "is_unique_array": true,
+      "duplicate_group_file_count": 1
+    },
+    {
+      "filename": "Botrytis_cinerea_2.mat",
+      "original_filename": "Botrytis_cinerea_2.mat",
+      "source_class": "Botrytis cinerea",
+      "provisional_class": "Botrytis cinerea",
+      "resolved_relative_path": "botrytis_cinerea/Botrytis_cinerea_2.mat",
+      "file_id": "3d01b608-c6dc-4034-93cb-05a8c1a6f0d1",
+      "exists": true,
+      "file_size_bytes": 122347407,
+      "md5": "1aa3e80b42f90c9170f7042e7f8f38bc",
+      "sha256": "313483307d24a348823ac849f0bcf4dd01aab03ad266c4b21cae4a9887a94605",
+      "md5_status": "match",
+      "variables": [
+        {
+          "name": "Day_one_2",
+          "dimensions": [
+            140,
+            280,
+            550
+          ],
+          "matlab_type": "double"
+        }
+      ],
+      "numeric_3d_candidate_names": [
+        "Day_one_2"
+      ],
+      "candidate_cube_status": "unambiguous",
+      "numeric_3d_candidate_count": 1,
+      "other_numeric_array_count": 0,
+      "mat_variables": [
+        {
+          "name": "Day_one_2",
+          "dimensions": [
+            140,
+            280,
+            550
+          ],
+          "matlab_type": "double"
+        }
+      ],
+      "cube_variable_name": "Day_one_2",
+      "cube_dimensions": [
+        140,
+        280,
+        550
+      ],
+      "cube_dtype": "float64",
+      "cube_statistics": {
+        "finite_element_count": 21560000,
+        "total_element_count": 21560000,
+        "nan_count": 0,
+        "positive_infinity_count": 0,
+        "negative_infinity_count": 0,
+        "zero_count": 38,
+        "negative_value_count": 0,
+        "min_finite": 0.0,
+        "max_finite": 4095.0,
+        "mean_finite": 1956.4163843589956,
+        "std_finite": 1010.5780241894802,
+        "q01": 294.84740931510925,
+        "q05": 520.8583717091877,
+        "q25": 1076.5398096084596,
+        "q50": 1947.735931491852,
+        "q75": 2825.2309150536857,
+        "q95": 3567.310984077454,
+        "q99": 4095.0
+      },
+      "cube_hash": "a45aa2aedb76e09e88cc9e86d4dcfa0ca3db37bacdf3b3c26003abb31617dd83",
+      "band_profile_status": "provisional_550_axis_from_array_shape_and_source_documentation",
+      "band_profile_path": "data/processed/external/zenodo_15800414/band_profiles/Botrytis_cinerea_2_band_profile.csv",
+      "band_profile_units": "array units not wavelength units; no wavelength vector",
+      "duplicate_group_id": "DG-008",
+      "is_unique_array": true,
+      "duplicate_group_file_count": 1
+    },
+    {
+      "filename": "Botrytis_cinerea_3.mat",
+      "original_filename": "Botrytis_cinerea_3.mat",
+      "source_class": "Botrytis cinerea",
+      "provisional_class": "Botrytis cinerea",
+      "resolved_relative_path": "botrytis_cinerea/Botrytis_cinerea_3.mat",
+      "file_id": "1277df58-0a6d-42aa-9901-baaaebb73a74",
+      "exists": true,
+      "file_size_bytes": 122233114,
+      "md5": "3b3becff259743a2b3f23abd5011afdc",
+      "sha256": "9b9f76b40ca8dba240192f1d7204633db100ea6bbf14678a37f803721e4be1c6",
+      "md5_status": "match",
+      "variables": [
+        {
+          "name": "Day_three_1",
+          "dimensions": [
+            140,
+            280,
+            550
+          ],
+          "matlab_type": "double"
+        }
+      ],
+      "numeric_3d_candidate_names": [
+        "Day_three_1"
+      ],
+      "candidate_cube_status": "unambiguous",
+      "numeric_3d_candidate_count": 1,
+      "other_numeric_array_count": 0,
+      "mat_variables": [
+        {
+          "name": "Day_three_1",
+          "dimensions": [
+            140,
+            280,
+            550
+          ],
+          "matlab_type": "double"
+        }
+      ],
+      "cube_variable_name": "Day_three_1",
+      "cube_dimensions": [
+        140,
+        280,
+        550
+      ],
+      "cube_dtype": "float64",
+      "cube_statistics": {
+        "finite_element_count": 21560000,
+        "total_element_count": 21560000,
+        "nan_count": 0,
+        "positive_infinity_count": 0,
+        "negative_infinity_count": 0,
+        "zero_count": 40,
+        "negative_value_count": 0,
+        "min_finite": 0.0,
+        "max_finite": 4095.0,
+        "mean_finite": 2005.5087686668785,
+        "std_finite": 1032.0737011934732,
+        "q01": 292.7941633885702,
+        "q05": 520.3729214159646,
+        "q25": 1102.3336552619935,
+        "q50": 2008.6340125083925,
+        "q75": 2875.643310085932,
+        "q95": 3749.8368090089175,
+        "q99": 4095.0
+      },
+      "cube_hash": "b6991221f009c2bd428c4d326f385cfd39df9d31c73999e6c460de0b36ba9686",
+      "band_profile_status": "provisional_550_axis_from_array_shape_and_source_documentation",
+      "band_profile_path": "data/processed/external/zenodo_15800414/band_profiles/Botrytis_cinerea_3_band_profile.csv",
+      "band_profile_units": "array units not wavelength units; no wavelength vector",
+      "duplicate_group_id": "DG-009",
+      "is_unique_array": true,
+      "duplicate_group_file_count": 1
+    },
+    {
+      "filename": "Botrytis_cinerea_4.mat",
+      "original_filename": "Botrytis_cinerea_4.mat",
+      "source_class": "Botrytis cinerea",
+      "provisional_class": "Botrytis cinerea",
+      "resolved_relative_path": "botrytis_cinerea/Botrytis_cinerea_4.mat",
+      "file_id": "5b0b85b3-3a0f-4de0-ba89-e8c083cad313",
+      "exists": true,
+      "file_size_bytes": 120454561,
+      "md5": "ae673ee5f627f244aedab5506a1243ec",
+      "sha256": "567df4aae1a58f9cc0e4fb65851d35c24d274a4a6df591aa34c90202450ef6f4",
+      "md5_status": "match",
+      "variables": [
+        {
+          "name": "Day_three_2",
+          "dimensions": [
+            140,
+            280,
+            550
+          ],
+          "matlab_type": "double"
+        }
+      ],
+      "numeric_3d_candidate_names": [
+        "Day_three_2"
+      ],
+      "candidate_cube_status": "unambiguous",
+      "numeric_3d_candidate_count": 1,
+      "other_numeric_array_count": 0,
+      "mat_variables": [
+        {
+          "name": "Day_three_2",
+          "dimensions": [
+            140,
+            280,
+            550
+          ],
+          "matlab_type": "double"
+        }
+      ],
+      "cube_variable_name": "Day_three_2",
+      "cube_dimensions": [
+        140,
+        280,
+        550
+      ],
+      "cube_dtype": "float64",
+      "cube_statistics": {
+        "finite_element_count": 21560000,
+        "total_element_count": 21560000,
+        "nan_count": 0,
+        "positive_infinity_count": 0,
+        "negative_infinity_count": 0,
+        "zero_count": 28,
+        "negative_value_count": 0,
+        "min_finite": 0.0,
+        "max_finite": 4095.0,
+        "mean_finite": 2049.027142663186,
+        "std_finite": 1061.7871487356022,
+        "q01": 294.10551729965215,
+        "q05": 521.3355554453532,
+        "q25": 1113.5573528607688,
+        "q50": 2050.205845324198,
+        "q75": 2929.318798303604,
+        "q95": 4095.0,
+        "q99": 4095.0
+      },
+      "cube_hash": "1571dad6387ed1f5145d61c5116075b6b350baad4fdcac1ef4cc93cc156e52db",
+      "band_profile_status": "provisional_550_axis_from_array_shape_and_source_documentation",
+      "band_profile_path": "data/processed/external/zenodo_15800414/band_profiles/Botrytis_cinerea_4_band_profile.csv",
+      "band_profile_units": "array units not wavelength units; no wavelength vector",
+      "duplicate_group_id": "DG-001",
+      "is_unique_array": true,
+      "duplicate_group_file_count": 1
+    },
+    {
+      "filename": "Botrytis_cinerea_5.mat",
+      "original_filename": "Botrytis_cinerea_5.mat",
+      "source_class": "Botrytis cinerea",
+      "provisional_class": "Botrytis cinerea",
+      "resolved_relative_path": "botrytis_cinerea/Botrytis_cinerea_5.mat",
+      "file_id": "e81c066a-d620-4246-92c0-b5041001ed60",
+      "exists": true,
+      "file_size_bytes": 122270326,
+      "md5": "35490f2c842f7fb44ca017ee919d00a9",
+      "sha256": "9072f4207b426572dfdadd1721cba24ca7b1045c79aeb16f08f489e934182cd4",
+      "md5_status": "match",
+      "variables": [
+        {
+          "name": "Day_five_1",
+          "dimensions": [
+            140,
+            280,
+            550
+          ],
+          "matlab_type": "double"
+        }
+      ],
+      "numeric_3d_candidate_names": [
+        "Day_five_1"
+      ],
+      "candidate_cube_status": "unambiguous",
+      "numeric_3d_candidate_count": 1,
+      "other_numeric_array_count": 0,
+      "mat_variables": [
+        {
+          "name": "Day_five_1",
+          "dimensions": [
+            140,
+            280,
+            550
+          ],
+          "matlab_type": "double"
+        }
+      ],
+      "cube_variable_name": "Day_five_1",
+      "cube_dimensions": [
+        140,
+        280,
+        550
+      ],
+      "cube_dtype": "float64",
+      "cube_statistics": {
+        "finite_element_count": 21560000,
+        "total_element_count": 21560000,
+        "nan_count": 0,
+        "positive_infinity_count": 0,
+        "negative_infinity_count": 0,
+        "zero_count": 30,
+        "negative_value_count": 0,
+        "min_finite": 0.0,
+        "max_finite": 4095.0,
+        "mean_finite": 1973.4782802844704,
+        "std_finite": 1019.0142204591385,
+        "q01": 298.7667415269215,
+        "q05": 526.7396137873333,
+        "q25": 1083.356458377838,
+        "q50": 1966.1759337425233,
+        "q75": 2851.6244077046713,
+        "q95": 3610.838503863017,
+        "q99": 4095.0
+      },
+      "cube_hash": "f7be8aff72f6a4ebee5f8d781343b96fbcae55cb826ff2856781935fccc8fbde",
+      "band_profile_status": "provisional_550_axis_from_array_shape_and_source_documentation",
+      "band_profile_path": "data/processed/external/zenodo_15800414/band_profiles/Botrytis_cinerea_5_band_profile.csv",
+      "band_profile_units": "array units not wavelength units; no wavelength vector",
+      "duplicate_group_id": "DG-012",
+      "is_unique_array": true,
+      "duplicate_group_file_count": 1
+    },
+    {
+      "filename": "Botrytis_cinerea_6.mat",
+      "original_filename": "Botrytis_cinerea_6.mat",
+      "source_class": "Botrytis cinerea",
+      "provisional_class": "Botrytis cinerea",
+      "resolved_relative_path": "botrytis_cinerea/Botrytis_cinerea_6.mat",
+      "file_id": "eaa2d569-e201-4035-b237-3d6b1c3b5eb8",
+      "exists": true,
+      "file_size_bytes": 120628089,
+      "md5": "2aa2656828c4aef6fae65eb550a1e5b5",
+      "sha256": "b129462f15735fd359f965d64921e246fb9ac8cb5cebef3d15ccb41b3e2d866a",
+      "md5_status": "match",
+      "variables": [
+        {
+          "name": "Day_five_2",
+          "dimensions": [
+            140,
+            280,
+            550
+          ],
+          "matlab_type": "double"
+        }
+      ],
+      "numeric_3d_candidate_names": [
+        "Day_five_2"
+      ],
+      "candidate_cube_status": "unambiguous",
+      "numeric_3d_candidate_count": 1,
+      "other_numeric_array_count": 0,
+      "mat_variables": [
+        {
+          "name": "Day_five_2",
+          "dimensions": [
+            140,
+            280,
+            550
+          ],
+          "matlab_type": "double"
+        }
+      ],
+      "cube_variable_name": "Day_five_2",
+      "cube_dimensions": [
+        140,
+        280,
+        550
+      ],
+      "cube_dtype": "float64",
+      "cube_statistics": {
+        "finite_element_count": 21560000,
+        "total_element_count": 21560000,
+        "nan_count": 0,
+        "positive_infinity_count": 0,
+        "negative_infinity_count": 0,
+        "zero_count": 28,
+        "negative_value_count": 0,
+        "min_finite": 0.0,
+        "max_finite": 4095.0,
+        "mean_finite": 2026.7804496144713,
+        "std_finite": 1053.619275884381,
+        "q01": 300.22564579010015,
+        "q05": 528.6753000704448,
+        "q25": 1100.6969395955402,
+        "q50": 2020.5258075714114,
+        "q75": 2915.846426963806,
+        "q95": 4072.05469104767,
+        "q99": 4095.0
+      },
+      "cube_hash": "e32c1d621b744a15d0fee0a7881e39ecfa0a2f1f38b48f69b9c2c745640f91ff",
+      "band_profile_status": "provisional_550_axis_from_array_shape_and_source_documentation",
+      "band_profile_path": "data/processed/external/zenodo_15800414/band_profiles/Botrytis_cinerea_6_band_profile.csv",
+      "band_profile_units": "array units not wavelength units; no wavelength vector",
+      "duplicate_group_id": "DG-011",
+      "is_unique_array": true,
+      "duplicate_group_file_count": 1
+    },
+    {
+      "filename": "Botrytis_cinerea_7.mat",
+      "original_filename": "Botrytis_cinerea_7.mat",
+      "source_class": "Botrytis cinerea",
+      "provisional_class": "Botrytis cinerea",
+      "resolved_relative_path": "botrytis_cinerea/Botrytis_cinerea_7.mat",
+      "file_id": "2401285c-7374-48ec-b9b7-1433be9a0984",
+      "exists": true,
+      "file_size_bytes": 118958903,
+      "md5": "3b32de55cd99646c4eb533fb8d9e0dda",
+      "sha256": "811085f0caaef7281f1c69ea4c24cac572ef85f5d85475901e4bce65cc0b90f9",
+      "md5_status": "match",
+      "variables": [
+        {
+          "name": "Day_seven_1",
+          "dimensions": [
+            140,
+            280,
+            550
+          ],
+          "matlab_type": "double"
+        }
+      ],
+      "numeric_3d_candidate_names": [
+        "Day_seven_1"
+      ],
+      "candidate_cube_status": "unambiguous",
+      "numeric_3d_candidate_count": 1,
+      "other_numeric_array_count": 0,
+      "mat_variables": [
+        {
+          "name": "Day_seven_1",
+          "dimensions": [
+            140,
+            280,
+            550
+          ],
+          "matlab_type": "double"
+        }
+      ],
+      "cube_variable_name": "Day_seven_1",
+      "cube_dimensions": [
+        140,
+        280,
+        550
+      ],
+      "cube_dtype": "float64",
+      "cube_statistics": {
+        "finite_element_count": 21560000,
+        "total_element_count": 21560000,
+        "nan_count": 0,
+        "positive_infinity_count": 0,
+        "negative_infinity_count": 0,
+        "zero_count": 39,
+        "negative_value_count": 0,
+        "min_finite": 0.0,
+        "max_finite": 4095.0,
+        "mean_finite": 2112.1520839883024,
+        "std_finite": 1091.5354252959505,
+        "q01": 296.5848215484619,
+        "q05": 525.4017343012491,
+        "q25": 1148.1435780366262,
+        "q50": 2119.981695175171,
+        "q75": 2997.6510860919952,
+        "q95": 4095.0,
+        "q99": 4095.0
+      },
+      "cube_hash": "35a01aaef7d3b67e97177b00642ef6cbdd799f6afdbfec1783b4d2e32443a473",
+      "band_profile_status": "provisional_550_axis_from_array_shape_and_source_documentation",
+      "band_profile_path": "data/processed/external/zenodo_15800414/band_profiles/Botrytis_cinerea_7_band_profile.csv",
+      "band_profile_units": "array units not wavelength units; no wavelength vector",
+      "duplicate_group_id": "DG-002",
+      "is_unique_array": true,
+      "duplicate_group_file_count": 1
+    },
+    {
+      "filename": "Botrytis_cinerea_8.mat",
+      "original_filename": "Botrytis_cinerea_8.mat",
+      "source_class": "Botrytis cinerea",
+      "provisional_class": "Botrytis cinerea",
+      "resolved_relative_path": "botrytis_cinerea/Botrytis_cinerea_8.mat",
+      "file_id": "c9e21f0a-a8a1-4a2c-bbe6-6c7addc7892a",
+      "exists": true,
+      "file_size_bytes": 121514703,
+      "md5": "6d18e767fae987686266aa231d3ada7f",
+      "sha256": "5b813c6de2685677d89f32697189f05f0ea795da22494f9a30191ebf6ea202f4",
+      "md5_status": "match",
+      "variables": [
+        {
+          "name": "Day_seven_2",
+          "dimensions": [
+            140,
+            280,
+            550
+          ],
+          "matlab_type": "double"
+        }
+      ],
+      "numeric_3d_candidate_names": [
+        "Day_seven_2"
+      ],
+      "candidate_cube_status": "unambiguous",
+      "numeric_3d_candidate_count": 1,
+      "other_numeric_array_count": 0,
+      "mat_variables": [
+        {
+          "name": "Day_seven_2",
+          "dimensions": [
+            140,
+            280,
+            550
+          ],
+          "matlab_type": "double"
+        }
+      ],
+      "cube_variable_name": "Day_seven_2",
+      "cube_dimensions": [
+        140,
+        280,
+        550
+      ],
+      "cube_dtype": "float64",
+      "cube_statistics": {
+        "finite_element_count": 21560000,
+        "total_element_count": 21560000,
+        "nan_count": 0,
+        "positive_infinity_count": 0,
+        "negative_infinity_count": 0,
+        "zero_count": 27,
+        "negative_value_count": 0,
+        "min_finite": 0.0,
+        "max_finite": 4095.0,
+        "mean_finite": 2038.9101414658026,
+        "std_finite": 1052.0361194815025,
+        "q01": 296.123995809555,
+        "q05": 523.7959260686239,
+        "q25": 1114.929504553477,
+        "q50": 2042.6842576662698,
+        "q75": 2924.798189353943,
+        "q95": 3988.7863681602494,
+        "q99": 4095.0
+      },
+      "cube_hash": "853f14e0f2a4c33593c63a892a95cd055d7f192a9eeccc34af1fb8e4bf91f002",
+      "band_profile_status": "provisional_550_axis_from_array_shape_and_source_documentation",
+      "band_profile_path": "data/processed/external/zenodo_15800414/band_profiles/Botrytis_cinerea_8_band_profile.csv",
+      "band_profile_units": "array units not wavelength units; no wavelength vector",
+      "duplicate_group_id": "DG-007",
+      "is_unique_array": true,
+      "duplicate_group_file_count": 1
+    },
+    {
+      "filename": "Healthy_1.mat",
+      "original_filename": "Healthy_1.mat",
+      "source_class": "Healthy control",
+      "provisional_class": "Healthy control",
+      "resolved_relative_path": "healthy/Healthy_1.mat",
+      "file_id": "7a7a12fb-2f8c-4a6b-8822-fa6c345e9cbd",
+      "exists": true,
+      "file_size_bytes": 160689583,
+      "md5": "e55b73666d43cd2b6f38fa2eaf10d532",
+      "sha256": "cedf32595c1c696573f572e50ce6bd88995b3adb721b711274b1f86e5fff5680",
+      "md5_status": "match",
+      "variables": [
+        {
+          "name": "Day_one_1",
+          "dimensions": [
+            140,
+            280,
+            550
+          ],
+          "matlab_type": "double"
+        }
+      ],
+      "numeric_3d_candidate_names": [
+        "Day_one_1"
+      ],
+      "candidate_cube_status": "unambiguous",
+      "numeric_3d_candidate_count": 1,
+      "other_numeric_array_count": 0,
+      "mat_variables": [
+        {
+          "name": "Day_one_1",
+          "dimensions": [
+            140,
+            280,
+            550
+          ],
+          "matlab_type": "double"
+        }
+      ],
+      "cube_variable_name": "Day_one_1",
+      "cube_dimensions": [
+        140,
+        280,
+        550
+      ],
+      "cube_dtype": "float64",
+      "cube_statistics": {
+        "finite_element_count": 21560000,
+        "total_element_count": 21560000,
+        "nan_count": 0,
+        "positive_infinity_count": 0,
+        "negative_infinity_count": 0,
+        "zero_count": 1,
+        "negative_value_count": 0,
+        "min_finite": 0.0,
+        "max_finite": 0.7944624794682191,
+        "mean_finite": 0.23539874592476537,
+        "std_finite": 0.13636817258471357,
+        "q01": 0.11183392771977893,
+        "q05": 0.14036270368755668,
+        "q25": 0.16946703434477473,
+        "q50": 0.18409204042573424,
+        "q75": 0.22322096728741236,
+        "q95": 0.6186651269059451,
+        "q99": 0.6657448606755912
+      },
+      "cube_hash": "4ccb5b89b02b095f3bbb17cab36a3a2373ea6a777ea3b9e9ac4f1889b6c0dac8",
+      "band_profile_status": "provisional_550_axis_from_array_shape_and_source_documentation",
+      "band_profile_path": "data/processed/external/zenodo_15800414/band_profiles/Healthy_1_band_profile.csv",
+      "band_profile_units": "array units not wavelength units; no wavelength vector",
+      "duplicate_group_id": "DG-003",
+      "is_unique_array": true,
+      "duplicate_group_file_count": 2
+    },
+    {
+      "filename": "Healthy_2.mat",
+      "original_filename": "Healthy_2.mat",
+      "source_class": "Healthy control",
+      "provisional_class": "Healthy control",
+      "resolved_relative_path": "healthy/Healthy_2.mat",
+      "file_id": "c25296ca-2ad3-479b-9e97-6481c0a2ec94",
+      "exists": true,
+      "file_size_bytes": 160560820,
+      "md5": "c5bc67afa8ce02c2becccf87a3925508",
+      "sha256": "7cd1df6eb0088dec456e758f6d7097d2cddcd112e34a6d802fafa87c32cfea93",
+      "md5_status": "match",
+      "variables": [
+        {
+          "name": "Day_one_2",
+          "dimensions": [
+            140,
+            280,
+            550
+          ],
+          "matlab_type": "double"
+        }
+      ],
+      "numeric_3d_candidate_names": [
+        "Day_one_2"
+      ],
+      "candidate_cube_status": "unambiguous",
+      "numeric_3d_candidate_count": 1,
+      "other_numeric_array_count": 0,
+      "mat_variables": [
+        {
+          "name": "Day_one_2",
+          "dimensions": [
+            140,
+            280,
+            550
+          ],
+          "matlab_type": "double"
+        }
+      ],
+      "cube_variable_name": "Day_one_2",
+      "cube_dimensions": [
+        140,
+        280,
+        550
+      ],
+      "cube_dtype": "float64",
+      "cube_statistics": {
+        "finite_element_count": 21560000,
+        "total_element_count": 21560000,
+        "nan_count": 0,
+        "positive_infinity_count": 0,
+        "negative_infinity_count": 0,
+        "zero_count": 0,
+        "negative_value_count": 0,
+        "min_finite": 8.736218593255994e-05,
+        "max_finite": 0.7619459339856509,
+        "mean_finite": 0.22414448218893127,
+        "std_finite": 0.12417312750692996,
+        "q01": 0.11460837341898926,
+        "q05": 0.1385465441690986,
+        "q25": 0.16747003014708223,
+        "q50": 0.1813471635413047,
+        "q75": 0.21550953463193612,
+        "q95": 0.6008786294431057,
+        "q99": 0.656616900928412
+      },
+      "cube_hash": "7956f8b1cbc61bf5bf6b3bdc3ac9f32f9a31c7cc0b06fe7d04fbc0378b5cfcf0",
+      "band_profile_status": "provisional_550_axis_from_array_shape_and_source_documentation",
+      "band_profile_path": "data/processed/external/zenodo_15800414/band_profiles/Healthy_2_band_profile.csv",
+      "band_profile_units": "array units not wavelength units; no wavelength vector",
+      "duplicate_group_id": "DG-005",
+      "is_unique_array": true,
+      "duplicate_group_file_count": 2
+    },
+    {
+      "filename": "Healthy_3.mat",
+      "original_filename": "Healthy_3.mat",
+      "source_class": "Healthy control",
+      "provisional_class": "Healthy control",
+      "resolved_relative_path": "healthy/Healthy_3.mat",
+      "file_id": "0b6eb4a3-b124-4025-8b62-654abd6ace9d",
+      "exists": true,
+      "file_size_bytes": 160858502,
+      "md5": "8fab75879297658d645c15ba0be6ddfc",
+      "sha256": "657b837b761e76eab4d22cf0b37d558f53d0da943e7d620a542f88eba20a60e4",
+      "md5_status": "match",
+      "variables": [
+        {
+          "name": "Day_three_1",
+          "dimensions": [
+            140,
+            280,
+            550
+          ],
+          "matlab_type": "double"
+        }
+      ],
+      "numeric_3d_candidate_names": [
+        "Day_three_1"
+      ],
+      "candidate_cube_status": "unambiguous",
+      "numeric_3d_candidate_count": 1,
+      "other_numeric_array_count": 0,
+      "mat_variables": [
+        {
+          "name": "Day_three_1",
+          "dimensions": [
+            140,
+            280,
+            550
+          ],
+          "matlab_type": "double"
+        }
+      ],
+      "cube_variable_name": "Day_three_1",
+      "cube_dimensions": [
+        140,
+        280,
+        550
+      ],
+      "cube_dtype": "float64",
+      "cube_statistics": {
+        "finite_element_count": 21560000,
+        "total_element_count": 21560000,
+        "nan_count": 0,
+        "positive_infinity_count": 0,
+        "negative_infinity_count": 0,
+        "zero_count": 1,
+        "negative_value_count": 0,
+        "min_finite": 0.0,
+        "max_finite": 0.7792823635349214,
+        "mean_finite": 0.23599498108825842,
+        "std_finite": 0.137774936511824,
+        "q01": 0.11050336429689589,
+        "q05": 0.135997276475687,
+        "q25": 0.16923718568104187,
+        "q50": 0.18463228972870027,
+        "q75": 0.2241156742193094,
+        "q95": 0.6210658149401616,
+        "q99": 0.6687281399326882
+      },
+      "cube_hash": "59374bfdf97e68398220ba08bed530cf3b95623ca9b87ab6da3519caa09e331e",
+      "band_profile_status": "provisional_550_axis_from_array_shape_and_source_documentation",
+      "band_profile_path": "data/processed/external/zenodo_15800414/band_profiles/Healthy_3_band_profile.csv",
+      "band_profile_units": "array units not wavelength units; no wavelength vector",
+      "duplicate_group_id": "DG-004",
+      "is_unique_array": true,
+      "duplicate_group_file_count": 2
+    },
+    {
+      "filename": "Healthy_4.mat",
+      "original_filename": "Healthy_4.mat",
+      "source_class": "Healthy control",
+      "provisional_class": "Healthy control",
+      "resolved_relative_path": "healthy/Healthy_4.mat",
+      "file_id": "be30cf32-50e8-489d-95fe-64df1ef990d4",
+      "exists": true,
+      "file_size_bytes": 160202571,
+      "md5": "571e5aca948484b588df402e52d4b930",
+      "sha256": "357a8e23bceb713835db225e5931ffdd7f6ce1f5310bd4aef6f4e9038ac1666f",
+      "md5_status": "match",
+      "variables": [
+        {
+          "name": "Day_three_2",
+          "dimensions": [
+            140,
+            280,
+            550
+          ],
+          "matlab_type": "double"
+        }
+      ],
+      "numeric_3d_candidate_names": [
+        "Day_three_2"
+      ],
+      "candidate_cube_status": "unambiguous",
+      "numeric_3d_candidate_count": 1,
+      "other_numeric_array_count": 0,
+      "mat_variables": [
+        {
+          "name": "Day_three_2",
+          "dimensions": [
+            140,
+            280,
+            550
+          ],
+          "matlab_type": "double"
+        }
+      ],
+      "cube_variable_name": "Day_three_2",
+      "cube_dimensions": [
+        140,
+        280,
+        550
+      ],
+      "cube_dtype": "float64",
+      "cube_statistics": {
+        "finite_element_count": 21560000,
+        "total_element_count": 21560000,
+        "nan_count": 0,
+        "positive_infinity_count": 0,
+        "negative_infinity_count": 0,
+        "zero_count": 3,
+        "negative_value_count": 0,
+        "min_finite": 0.0,
+        "max_finite": 0.7478300691966614,
+        "mean_finite": 0.21635130300287853,
+        "std_finite": 0.10645805132263876,
+        "q01": 0.1245737161146749,
+        "q05": 0.15057188207546035,
+        "q25": 0.1695839427747094,
+        "q50": 0.18152949277981117,
+        "q75": 0.21094674208657638,
+        "q95": 0.5551334214037473,
+        "q99": 0.636521481862369
+      },
+      "cube_hash": "cd40fc386e90afcec5ac209c0f7c2d46d938002063b2b28bcdaf008b463e5bbd",
+      "band_profile_status": "provisional_550_axis_from_array_shape_and_source_documentation",
+      "band_profile_path": "data/processed/external/zenodo_15800414/band_profiles/Healthy_4_band_profile.csv",
+      "band_profile_units": "array units not wavelength units; no wavelength vector",
+      "duplicate_group_id": "DG-010",
+      "is_unique_array": true,
+      "duplicate_group_file_count": 2
+    },
+    {
+      "filename": "Healthy_5.mat",
+      "original_filename": "Healthy_5.mat",
+      "source_class": "Healthy control",
+      "provisional_class": "Healthy control",
+      "resolved_relative_path": "healthy/Healthy_5.mat",
+      "file_id": "80125984-89a0-45cf-98c6-e81aef3b15eb",
+      "exists": true,
+      "file_size_bytes": 160560821,
+      "md5": "e8ba3484d8c23dbdc28799bc85f06a8b",
+      "sha256": "04d73f713673758e42109d03fe51d15c25e94c8d8ef26f1c7bbd7303fbbf3490",
+      "md5_status": "match",
+      "variables": [
+        {
+          "name": "Day_five_1",
+          "dimensions": [
+            140,
+            280,
+            550
+          ],
+          "matlab_type": "double"
+        }
+      ],
+      "numeric_3d_candidate_names": [
+        "Day_five_1"
+      ],
+      "candidate_cube_status": "unambiguous",
+      "numeric_3d_candidate_count": 1,
+      "other_numeric_array_count": 0,
+      "mat_variables": [
+        {
+          "name": "Day_five_1",
+          "dimensions": [
+            140,
+            280,
+            550
+          ],
+          "matlab_type": "double"
+        }
+      ],
+      "cube_variable_name": "Day_five_1",
+      "cube_dimensions": [
+        140,
+        280,
+        550
+      ],
+      "cube_dtype": "float64",
+      "cube_statistics": {
+        "finite_element_count": 21560000,
+        "total_element_count": 21560000,
+        "nan_count": 0,
+        "positive_infinity_count": 0,
+        "negative_infinity_count": 0,
+        "zero_count": 0,
+        "negative_value_count": 0,
+        "min_finite": 8.736218593255994e-05,
+        "max_finite": 0.7619459339856509,
+        "mean_finite": 0.22414448218893127,
+        "std_finite": 0.12417312750692996,
+        "q01": 0.11460837341898926,
+        "q05": 0.1385465441690986,
+        "q25": 0.16747003014708223,
+        "q50": 0.1813471635413047,
+        "q75": 0.21550953463193612,
+        "q95": 0.6008786294431057,
+        "q99": 0.656616900928412
+      },
+      "cube_hash": "7956f8b1cbc61bf5bf6b3bdc3ac9f32f9a31c7cc0b06fe7d04fbc0378b5cfcf0",
+      "band_profile_status": "provisional_550_axis_from_array_shape_and_source_documentation",
+      "band_profile_path": "data/processed/external/zenodo_15800414/band_profiles/Healthy_5_band_profile.csv",
+      "band_profile_units": "array units not wavelength units; no wavelength vector",
+      "duplicate_group_id": "DG-005",
+      "is_unique_array": false,
+      "duplicate_group_file_count": 2
+    },
+    {
+      "filename": "Healthy_6.mat",
+      "original_filename": "Healthy_6.mat",
+      "source_class": "Healthy control",
+      "provisional_class": "Healthy control",
+      "resolved_relative_path": "healthy/Healthy_6.mat",
+      "file_id": "cfe27a6a-54c1-4674-bb01-0bc66dfab2e3",
+      "exists": true,
+      "file_size_bytes": 160689586,
+      "md5": "90201764ecd5a4871d3b364063afad63",
+      "sha256": "58af975d070ab75510b4534464646e515cc97c21a6e53828c7758e29c8f15d4d",
+      "md5_status": "match",
+      "variables": [
+        {
+          "name": "Day_five_2",
+          "dimensions": [
+            140,
+            280,
+            550
+          ],
+          "matlab_type": "double"
+        }
+      ],
+      "numeric_3d_candidate_names": [
+        "Day_five_2"
+      ],
+      "candidate_cube_status": "unambiguous",
+      "numeric_3d_candidate_count": 1,
+      "other_numeric_array_count": 0,
+      "mat_variables": [
+        {
+          "name": "Day_five_2",
+          "dimensions": [
+            140,
+            280,
+            550
+          ],
+          "matlab_type": "double"
+        }
+      ],
+      "cube_variable_name": "Day_five_2",
+      "cube_dimensions": [
+        140,
+        280,
+        550
+      ],
+      "cube_dtype": "float64",
+      "cube_statistics": {
+        "finite_element_count": 21560000,
+        "total_element_count": 21560000,
+        "nan_count": 0,
+        "positive_infinity_count": 0,
+        "negative_infinity_count": 0,
+        "zero_count": 1,
+        "negative_value_count": 0,
+        "min_finite": 0.0,
+        "max_finite": 0.7944624794682191,
+        "mean_finite": 0.23539874592476537,
+        "std_finite": 0.13636817258471357,
+        "q01": 0.11183392771977893,
+        "q05": 0.14036270368755668,
+        "q25": 0.16946703434477473,
+        "q50": 0.18409204042573424,
+        "q75": 0.22322096728741236,
+        "q95": 0.6186651269059451,
+        "q99": 0.6657448606755912
+      },
+      "cube_hash": "4ccb5b89b02b095f3bbb17cab36a3a2373ea6a777ea3b9e9ac4f1889b6c0dac8",
+      "band_profile_status": "provisional_550_axis_from_array_shape_and_source_documentation",
+      "band_profile_path": "data/processed/external/zenodo_15800414/band_profiles/Healthy_6_band_profile.csv",
+      "band_profile_units": "array units not wavelength units; no wavelength vector",
+      "duplicate_group_id": "DG-003",
+      "is_unique_array": false,
+      "duplicate_group_file_count": 2
+    },
+    {
+      "filename": "Healthy_7.mat",
+      "original_filename": "Healthy_7.mat",
+      "source_class": "Healthy control",
+      "provisional_class": "Healthy control",
+      "resolved_relative_path": "healthy/Healthy_7.mat",
+      "file_id": "f0fd0ee8-29fd-4274-a944-31149cf2f99e",
+      "exists": true,
+      "file_size_bytes": 160858503,
+      "md5": "3f8aec5cd0f61e644ee96042fbc21b83",
+      "sha256": "a04708cfffe3940d21ce40c5b3b6f6ec181eb1bc7d2a5e7aea76e52e95a6605b",
+      "md5_status": "match",
+      "variables": [
+        {
+          "name": "Day_seven_1",
+          "dimensions": [
+            140,
+            280,
+            550
+          ],
+          "matlab_type": "double"
+        }
+      ],
+      "numeric_3d_candidate_names": [
+        "Day_seven_1"
+      ],
+      "candidate_cube_status": "unambiguous",
+      "numeric_3d_candidate_count": 1,
+      "other_numeric_array_count": 0,
+      "mat_variables": [
+        {
+          "name": "Day_seven_1",
+          "dimensions": [
+            140,
+            280,
+            550
+          ],
+          "matlab_type": "double"
+        }
+      ],
+      "cube_variable_name": "Day_seven_1",
+      "cube_dimensions": [
+        140,
+        280,
+        550
+      ],
+      "cube_dtype": "float64",
+      "cube_statistics": {
+        "finite_element_count": 21560000,
+        "total_element_count": 21560000,
+        "nan_count": 0,
+        "positive_infinity_count": 0,
+        "negative_infinity_count": 0,
+        "zero_count": 1,
+        "negative_value_count": 0,
+        "min_finite": 0.0,
+        "max_finite": 0.7792823635349214,
+        "mean_finite": 0.23599498108825842,
+        "std_finite": 0.137774936511824,
+        "q01": 0.11050336429689589,
+        "q05": 0.135997276475687,
+        "q25": 0.16923718568104187,
+        "q50": 0.18463228972870027,
+        "q75": 0.2241156742193094,
+        "q95": 0.6210658149401616,
+        "q99": 0.6687281399326882
+      },
+      "cube_hash": "59374bfdf97e68398220ba08bed530cf3b95623ca9b87ab6da3519caa09e331e",
+      "band_profile_status": "provisional_550_axis_from_array_shape_and_source_documentation",
+      "band_profile_path": "data/processed/external/zenodo_15800414/band_profiles/Healthy_7_band_profile.csv",
+      "band_profile_units": "array units not wavelength units; no wavelength vector",
+      "duplicate_group_id": "DG-004",
+      "is_unique_array": false,
+      "duplicate_group_file_count": 2
+    },
+    {
+      "filename": "Healthy_8.mat",
+      "original_filename": "Healthy_8.mat",
+      "source_class": "Healthy control",
+      "provisional_class": "Healthy control",
+      "resolved_relative_path": "healthy/Healthy_8.mat",
+      "file_id": "de3b16b4-f2bc-4e54-b444-e491c73989a0",
+      "exists": true,
+      "file_size_bytes": 160202570,
+      "md5": "d75a9a574ebc3596aa8f97fee2b894fa",
+      "sha256": "c00bbcb78b6d399ef03b28ccb84b89859c1ba7c9e8d3ab7c17b88dde3b2d58a1",
+      "md5_status": "match",
+      "variables": [
+        {
+          "name": "Day_seven_2",
+          "dimensions": [
+            140,
+            280,
+            550
+          ],
+          "matlab_type": "double"
+        }
+      ],
+      "numeric_3d_candidate_names": [
+        "Day_seven_2"
+      ],
+      "candidate_cube_status": "unambiguous",
+      "numeric_3d_candidate_count": 1,
+      "other_numeric_array_count": 0,
+      "mat_variables": [
+        {
+          "name": "Day_seven_2",
+          "dimensions": [
+            140,
+            280,
+            550
+          ],
+          "matlab_type": "double"
+        }
+      ],
+      "cube_variable_name": "Day_seven_2",
+      "cube_dimensions": [
+        140,
+        280,
+        550
+      ],
+      "cube_dtype": "float64",
+      "cube_statistics": {
+        "finite_element_count": 21560000,
+        "total_element_count": 21560000,
+        "nan_count": 0,
+        "positive_infinity_count": 0,
+        "negative_infinity_count": 0,
+        "zero_count": 3,
+        "negative_value_count": 0,
+        "min_finite": 0.0,
+        "max_finite": 0.7478300691966614,
+        "mean_finite": 0.21635130300287853,
+        "std_finite": 0.10645805132263876,
+        "q01": 0.1245737161146749,
+        "q05": 0.15057188207546035,
+        "q25": 0.1695839427747094,
+        "q50": 0.18152949277981117,
+        "q75": 0.21094674208657638,
+        "q95": 0.5551334214037473,
+        "q99": 0.636521481862369
+      },
+      "cube_hash": "cd40fc386e90afcec5ac209c0f7c2d46d938002063b2b28bcdaf008b463e5bbd",
+      "band_profile_status": "provisional_550_axis_from_array_shape_and_source_documentation",
+      "band_profile_path": "data/processed/external/zenodo_15800414/band_profiles/Healthy_8_band_profile.csv",
+      "band_profile_units": "array units not wavelength units; no wavelength vector",
+      "duplicate_group_id": "DG-010",
+      "is_unique_array": false,
+      "duplicate_group_file_count": 2
+    }
+  ],
+  "class_comparison": {
+    "Botrytis cinerea": {
+      "file_count": 8,
+      "unique_array_count": 8,
+      "observed_finite_min_max": {
+        "min": 0.0,
+        "max": 4095.0
+      },
+      "file_minima_summary": {
+        "min": 0.0,
+        "mean": 0.0,
+        "max": 0.0
+      },
+      "file_maxima_summary": {
+        "min": 4095.0,
+        "mean": 4095.0,
+        "max": 4095.0
+      },
+      "file_mean_summary": {
+        "min": 1956.4163843589956,
+        "mean": 2024.529808886538,
+        "max": 2112.1520839883024
+      },
+      "file_std_summary": {
+        "min": 1010.5780241894802,
+        "mean": 1045.5836750620826,
+        "max": 1091.5354252959505
+      },
+      "label_status": "filename-derived provisional label"
+    },
+    "Healthy control": {
+      "file_count": 8,
+      "unique_array_count": 4,
+      "observed_finite_min_max": {
+        "min": 0.0,
+        "max": 0.7944624794682191
+      },
+      "file_minima_summary": {
+        "min": 0.0,
+        "mean": 2.1840546483139985e-05,
+        "max": 8.736218593255994e-05
+      },
+      "file_maxima_summary": {
+        "min": 0.7478300691966614,
+        "mean": 0.7708802115463632,
+        "max": 0.7944624794682191
+      },
+      "file_mean_summary": {
+        "min": 0.21635130300287853,
+        "mean": 0.2279723780512084,
+        "max": 0.23599498108825842
+      },
+      "file_std_summary": {
+        "min": 0.10645805132263876,
+        "mean": 0.1261935719815266,
+        "max": 0.137774936511824
+      },
+      "label_status": "filename-derived provisional label"
+    }
+  },
+  "raw_input_immutability": {
+    "verified": true,
+    "files_checked": 16,
+    "raw_writes": false
+  },
+  "compatibility_assessment": {
+    "conclusion": "Suitable only for separate exploratory analysis.",
+    "f3_status": "NO-GO",
+    "reason": "The external files lack verified biological identity, sample-level calibration, wavelength vectors, and plant-independent controls; exact healthy duplicates and a class-scale difference prevent direct comparability."
+  }
+}
