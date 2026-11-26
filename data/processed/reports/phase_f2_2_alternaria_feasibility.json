@@ -1,0 +1,381 @@
+{
+  "phase": "F2.2",
+  "report_date": "2026-11-26",
+  "audit_scope": "Metadata and official file-list feasibility audit only; no Alternaria files downloaded or opened; no model training or pipeline changes.",
+  "repository_state": {
+    "branch": "main",
+    "head": "e5cfe8be45d4aa88009b9e592ff25369a6d987e4",
+    "remote": "origin",
+    "tracked_worktree_changes_at_start": false,
+    "untracked_files_preserved": true,
+    "staged_or_committed": false
+  },
+  "dataset": {
+    "title": "Hyperspectral imaging (HS) of tomato leaves inoculated with Alternaria protenta",
+    "subtitle": "Alternaria protenta disease development study on tomato leaves",
+    "doi": "10.71782/DATA/MODVMZ",
+    "repository": "DataverseLV",
+    "landing_page_url": "https://doi.org/10.71782/DATA/MODVMZ",
+    "repository_api_url": "https://dv.dataverse.lv/api/datasets/:persistentId/?persistentId=doi%3A10.71782%2FDATA%2FMODVMZ",
+    "version": "1.0",
+    "access_date": "2026-11-26",
+    "authors": [
+      {
+        "name": "Vitalijs Komasilovs",
+        "affiliation": "Latvia University of Life Sciences and Technologies",
+        "orcid": "0000-0003-2797-633X"
+      },
+      {
+        "name": "Maksims Filipovics",
+        "affiliation": "Latvia University of Life Sciences and Technologies",
+        "orcid": "0000-0002-0577-6073"
+      },
+      {
+        "name": "Olvija Komasilova",
+        "affiliation": "Latvia University of Life Sciences and Technologies",
+        "orcid": "0000-0001-9248-3836"
+      }
+    ],
+    "publication_details": {
+      "publisher": "DataverseLV",
+      "publication_year": 2026,
+      "submitted": "2026-01-30",
+      "available": "2026-02-16",
+      "collected_start": "2025-04-11",
+      "collected_end": "2025-08-28",
+      "associated_publication": null,
+      "evidence": "DataCite relatedIdentifiers is empty; no journal article DOI is linked in the accessed dataset record.",
+      "confidence": "high for absence of a linked publication in DataCite; low for absence of any external publication"
+    },
+    "license": {
+      "name": "Creative Commons Attribution 4.0 International",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+      "reuse_notes": "Attribute the dataset authors and cite the DOI.",
+      "confidence": "high"
+    },
+    "crop": {
+      "species": "tomato",
+      "cultivar": "Encore",
+      "tissue": "leaves",
+      "confidence": "high"
+    },
+    "pathogen": {
+      "species": "Alternaria protenta",
+      "isolates": [
+        "028",
+        "065"
+      ],
+      "control_label": "K",
+      "confidence": "high"
+    },
+    "public_inventory": {
+      "listed_file_count": 9,
+      "total_listed_bytes": 636304181,
+      "total_listed_gb_decimal": 0.636304181,
+      "formats": [
+        "NPZ cube candidates",
+        "TSV metadata",
+        "Markdown README",
+        "ZIP RGB archive",
+        "ZIP raw-camera archives"
+      ],
+      "files": [
+        {
+          "filename": "metadata.tab",
+          "bytes": 58140,
+          "format": "TSV",
+          "downloaded_or_opened_in_f2_2": false
+        },
+        {
+          "filename": "readme.md",
+          "bytes": 5296,
+          "format": "Markdown",
+          "downloaded_or_opened_in_f2_2": false
+        },
+        {
+          "filename": "rgb.zip",
+          "bytes": 288999868,
+          "format": "ZIP",
+          "contents_inspected": false
+        },
+        {
+          "filename": "1797.npz",
+          "bytes": 68008284,
+          "format": "NPZ-listed cube candidate",
+          "downloaded_or_opened_in_f2_2": false
+        },
+        {
+          "filename": "1827.npz",
+          "bytes": 66098654,
+          "format": "NPZ-listed cube candidate",
+          "downloaded_or_opened_in_f2_2": false
+        },
+        {
+          "filename": "1855.npz",
+          "bytes": 67691714,
+          "format": "NPZ-listed cube candidate",
+          "downloaded_or_opened_in_f2_2": false
+        },
+        {
+          "filename": "1797.zip",
+          "bytes": 47126377,
+          "format": "ZIP raw-camera archive",
+          "contents_inspected": false
+        },
+        {
+          "filename": "1827.zip",
+          "bytes": 48558287,
+          "format": "ZIP raw-camera archive",
+          "contents_inspected": false
+        },
+        {
+          "filename": "1855.zip",
+          "bytes": 49757561,
+          "format": "ZIP raw-camera archive",
+          "contents_inspected": false
+        }
+      ],
+      "three_npz_total_bytes": 201798652,
+      "three_raw_zip_total_bytes": 145442225,
+      "evidence": "Official API file list and README/TSV findings documented as inspected in Phase F1; current F2.2 Dataverse fetch attempts returned access errors.",
+      "confidence": "high for prior file listing; medium for current listing"
+    },
+    "biology_and_labels": {
+      "metadata_observation_rows": 1000,
+      "metadata_fields": [
+        "image_id",
+        "trial",
+        "plant",
+        "leaf",
+        "part",
+        "date",
+        "imaging_distance",
+        "integration_time",
+        "weather"
+      ],
+      "trial_count": 5,
+      "plant_count": 13,
+      "plants_per_isolate": {
+        "028": 5,
+        "065": 5,
+        "control": 3
+      },
+      "public_cube_count": 3,
+      "cube_to_sample": [
+        {
+          "filename": "1797.npz",
+          "trial": 4,
+          "plant_id": "065/I",
+          "leaf": "2",
+          "part": "G",
+          "date": "2025-07-07"
+        },
+        {
+          "filename": "1827.npz",
+          "trial": 4,
+          "plant_id": "028/IV",
+          "leaf": "2",
+          "part": "2",
+          "date": "2025-07-10"
+        },
+        {
+          "filename": "1855.npz",
+          "trial": 4,
+          "plant_id": "028/II",
+          "leaf": "1",
+          "part": "8",
+          "date": "2025-07-14"
+        }
+      ],
+      "sample_mapping_confidence": "high; based on the directly inspected metadata TSV documented in Phase F1, not re-read in F2.2",
+      "disease_labels": "Isolate/control grouping encoded in the combined plant field; no per-cube diagnostic assay verification established.",
+      "severity_or_visual_annotations": "No numeric disease severity or sample-linked lesion annotation identified in reviewed metadata/README.",
+      "acquisition_dates_and_longitudinal": "Metadata rows contain repeated dated plant/leaf/part observations. Only three spectral cube files are publicly listed; they do not form a spectral time series.",
+      "biological_independence_note": "Do not interpret 1000 metadata rows or pixels as independent samples. Public cubes map to three distinct plants.",
+      "confidence": "high for prior metadata audit; low for individual disease ground truth"
+    },
+    "spectral_and_calibration": {
+      "listed_cube_file_type": "NPZ",
+      "cube_contents_inspected": false,
+      "shape_reported_in_readme": [
+        512,
+        512,
+        204
+      ],
+      "dtype_reported_in_readme": "float16",
+      "band_count_reported": 204,
+      "wavelength_vector_verified": false,
+      "wavelength_range_nm_verified": false,
+      "rgb_band_wavelength_anchors_reported": {
+        "70": 598.6,
+        "53": 548.55,
+        "19": 449.35
+      },
+      "instrument_reported": "Specim IQ",
+      "acquisition_reported": "Greenhouse natural sunlight, black background, white reference",
+      "calibration_status": "README describes NPZ artifacts as calibrated cubes; per-cube calibration assets, formula, units, and reflectance status were not independently verified.",
+      "metadata_conflicts": [
+        "README imaging-distance summary reports 13-48 mm while metadata documentation reports cm and TSV values span 11-100.",
+        "README integration-time summary reports 15-100 seconds while metadata schema reports ms and TSV values include 4-220."
+      ],
+      "confidence": {
+        "format_and_file_count": "high for listed names; internal arrays unverified",
+        "shape_dtype_and_band_count": "medium, source-documented but not checked from cube bytes",
+        "full_wavelength_axis": "low/unknown",
+        "calibration_claim": "medium for README claim; low for independently verified calibration"
+      }
+    }
+  },
+  "pipeline_compatibility": {
+    "existing_pipeline_constraints": [
+      "Current preprocessing expects 204 bands.",
+      "Current preprocessing loads a project-specific 2436 wavelength vector.",
+      "Existing feature extraction assumes the current NPZ/ROI schema and labels summaries as reflectance."
+    ],
+    "required_adapter": [
+      "Separate source namespace and loader with NPZ key, shape, dtype, finite-value, and checksum validation.",
+      "Explicit metadata mapping for source DOI, cube ID, trial, plant, isolate/control, leaf, part, and date.",
+      "Per-cube wavelength provenance and calibration-status fields; never default to 2436 wavelengths or reflectance labels."
+    ],
+    "classification": "Not supported for valid plant-level train/test evaluation by the three public cubes: all three metadata-mapped cubes are from inoculated plants and no public cube maps to a control; isolate 065 has one public plant and isolate 028 has two, all in trial 4.",
+    "exploratory_analysis": "Potentially suitable after cube-level wavelength/calibration/shape validation, kept source-separated and interpreted descriptively.",
+    "forecasting": "Not supported; dated metadata rows do not provide a sample-linked spectral time series or validated forecast target.",
+    "cross_dataset_pooling": "Not scientifically justified as a direct Botrytis alternative; preserve pathogen and experiment identity."
+  },
+  "comparison_matrix": [
+    {
+      "dataset": "Existing TerraSpectra Botrytis (DataverseLV MPCTZC)",
+      "crop_pathogen": "Tomato; B. cinerea, B. pseudocinerea, control",
+      "data_availability": "904 metadata rows; 3 local example cubes; 901 missing cubes",
+      "spectral_metadata": "204 bands; wavelength vector verified only for 2436, 397.32-1003.58 nm",
+      "calibration_status": "2436 has local header/references but reconstruction is uncertain; 2973/3079 wavelengths and calibration unresolved",
+      "biological_samples": "49 plants in metadata; 3 local cubes are different B. pseudocinerea plants",
+      "label_quality": "Metadata pathogen/control labels; no reviewed severity endpoint",
+      "time_series": "Repeated observations across 34 dates; not verified days-post-inoculation or severity",
+      "limitations": "Sparse local cubes, source-specific calibration uncertainty, repeated observations",
+      "recommended_use": "Existing source-specific baseline/descriptive analyses"
+    },
+    {
+      "dataset": "Zenodo Botrytis/Healthy (10.5281/zenodo.15800414)",
+      "crop_pathogen": "Tomato; filename-labeled B. cinerea and healthy",
+      "data_availability": "16 MAT files acquired; 12 unique numeric arrays after 4 exact healthy duplicate pairs",
+      "spectral_metadata": "140x280x550 float64 verified in F2.1; no wavelength vector; paper reports 400-950 nm",
+      "calibration_status": "Per-file calibration/reference mapping unresolved; class numeric scale differs greatly",
+      "biological_samples": "Plant IDs unverified; file/array count is not biological n",
+      "label_quality": "Filename/inoculation grouping; no sample-linked assay or severity",
+      "time_series": "MAT variable day tokens are unverified; paper/repository days differ",
+      "limitations": "No plant map or wavelengths, duplicate controls, inconsistent numeric class scales",
+      "recommended_use": "Isolated provenance work; preserve Phase F3 NO-GO"
+    },
+    {
+      "dataset": "Alternaria DataverseLV MODVMZ",
+      "crop_pathogen": "Tomato, Encore; A. protenta isolates 028/065 and control",
+      "data_availability": "9 listed files; 3 NPZ cubes total 201798652 bytes; no files downloaded in F2.2",
+      "spectral_metadata": "204 bands reported; 512x512x204 float16 source-described; full wavelength vector unverified",
+      "calibration_status": "README describes calibrated cubes; per-cube calibration and units unverified",
+      "biological_samples": "13 plants in 1000 metadata rows; 3 public cubes map to 3 plants",
+      "label_quality": "Isolate/control grouping; diagnostic verification and severity unavailable",
+      "time_series": "Repeated dated metadata, but only 3 public cube captures and no spectral time series",
+      "limitations": "Too few cubes for ML split; no verified full wavelength axis or calibration; unit conflicts",
+      "recommended_use": "Conditional source-separated exploratory analysis after validation; acquire more independent cubes for ML"
+    },
+    {
+      "dataset": "USDA Ag Data Commons bacterial leaf spot (10.15482/USDA.ADC/26046328)",
+      "crop_pathogen": "Tomato; Xanthomonas perforans",
+      "data_availability": "One public v2 ZIP, 15.4 GB; not downloaded or inspected",
+      "spectral_metadata": "Paper reports PIKA-L 300 bands (385.63-1027.18 nm) and PIKA-NIR320 168 bands (890.68-1719.81 nm)",
+      "calibration_status": "Paper reports dark/response correction and reference tile; archive-level verification absent",
+      "biological_samples": "Paper reports 36 images/228 leaves; independent plant count unknown",
+      "label_quality": "Paper reports CFU/cm2 and severity; archive-level sample joins unverified",
+      "time_series": "Paper reports 7 consecutive days; archive-level mapping unverified",
+      "limitations": "15.4 GB archive, two sensors, bacterial rather than fungal disease, sample joins/version require verification",
+      "recommended_use": "Separate bacterial methodological benchmark after version and sample-link validation"
+    }
+  ],
+  "source_urls": [
+    {
+      "url": "https://doi.org/10.71782/DATA/MODVMZ",
+      "role": "Official dataset DOI/landing page",
+      "access_date": "2026-11-26",
+      "access_result": "Fetch through available route returned an error; prior Phase F1 audit used official API."
+    },
+    {
+      "url": "https://dv.dataverse.lv/api/datasets/:persistentId/?persistentId=doi%3A10.71782%2FDATA%2FMODVMZ",
+      "role": "Official Dataverse API",
+      "access_date": "2026-11-26",
+      "access_result": "HTTP 503 in F2.2; detailed file listing and README/TSV were previously inspected in Phase F1."
+    },
+    {
+      "url": "https://api.datacite.org/dois/10.71782/DATA/MODVMZ",
+      "role": "DOI metadata registry",
+      "access_date": "2026-11-26",
+      "access_result": "Accessible; confirms title, authors, license, record dates, sizes/formats, abstract, and no related identifiers."
+    },
+    {
+      "url": "https://doi.org/10.71782/DATA/MPCTZC",
+      "role": "Existing Botrytis comparator DOI",
+      "access_date": "2026-11-26"
+    },
+    {
+      "url": "https://data.nal.usda.gov/dataset/early-detection-bacterial-spot-disease-tomato-hyperspectral-imaging",
+      "role": "USDA bacterial leaf spot comparator",
+      "access_date": "2026-11-26",
+      "details": "Comparator evidence carried forward from Phase F1; no archive downloaded."
+    },
+    {
+      "url": "https://doi.org/10.5281/zenodo.15800414",
+      "role": "Zenodo Botrytis/Healthy comparator",
+      "access_date": "2026-11-26",
+      "details": "Comparator evidence from Phase F2/F2.1; Zenodo Phase F3 status remains NO-GO."
+    }
+  ],
+  "overall_confidence": {
+    "dataset_identity_authors_license_and_repository_metadata": "high",
+    "file_list_and_file_sizes": "high based on prior Phase F1 official API inspection; current API fetch unavailable",
+    "sample_counts_and_cube_to_plant_mapping": "high based on prior direct TSV inspection",
+    "cube_shape_dtype_and_band_count": "medium; README-described, no cube bytes inspected in F2.2",
+    "wavelength_and_calibration_compatibility": "low/unknown",
+    "ml_feasibility_for_public_cube_subset": "high confidence that a valid balanced plant-level split is not available"
+  },
+  "acquisition_control": {
+    "alternaria_files_downloaded_in_f2_2": 0,
+    "bulk_download_started": false,
+    "proposed_future_npz_files": [
+      {
+        "filename": "1797.npz",
+        "bytes": 68008284
+      },
+      {
+        "filename": "1827.npz",
+        "bytes": 66098654
+      },
+      {
+        "filename": "1855.npz",
+        "bytes": 67691714
+      }
+    ],
+    "proposed_npz_total_bytes": 201798652,
+    "proposed_raw_zip_total_bytes": 145442225,
+    "approval_required_before_download": true
+  },
+  "zenodo_phase_f3_status": "NO-GO; unchanged from Phase F2.1",
+  "final_decision": {
+    "decision": "CONDITIONAL GO",
+    "scope": "Source-separated, exploratory work after cube, wavelength, calibration, and sample metadata validation.",
+    "conditions": [
+      "Verify NPZ internals, shape, dtype, and checksums.",
+      "Verify full wavelength vector, band order, calibration procedure, and units per cube.",
+      "Resolve README/metadata distance and integration-time conflicts.",
+      "Verify plant/isolate/control mapping and sample-level disease evidence.",
+      "Obtain sufficient additional independent cube samples before classification or forecasting work.",
+      "Keep Alternaria distinct from Botrytis and use plant-grouped evaluation."
+    ],
+    "prohibited_claims_or_uses": [
+      "No claim of disease prediction or forecasting.",
+      "No claim that cube values are calibrated reflectance.",
+      "No biological independence inferred from pixel, row, leaf, or file counts.",
+      "No cross-pathogen pooled training without a justified protocol."
+    ]
+  }
+}

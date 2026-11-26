@@ -1,0 +1,295 @@
+{
+  "phase": "F2.3",
+  "audit_date": "2026-11-26",
+  "scope": "Controlled acquisition and technical validation of only three DataverseLV Alternaria NPZ cubes. No training, classification, or production integration.",
+  "source": {
+    "title": "Hyperspectral imaging (HS) of tomato leaves inoculated with Alternaria protenta",
+    "doi": "10.71782/DATA/MODVMZ",
+    "repository": "DataverseLV",
+    "record_version": "1",
+    "license": "CC BY 4.0",
+    "landing_page_url": "https://doi.org/10.71782/DATA/MODVMZ",
+    "record_api_url": "https://dv.dataverse.lv/api/datasets/:persistentId/?persistentId=doi%3A10.71782%2FDATA%2FMODVMZ",
+    "files_api_url": "https://dv.dataverse.lv/api/datasets/:persistentId/versions/:latest/files?persistentId=doi%3A10.71782%2FDATA%2FMODVMZ",
+    "access_date": "2026-11-26",
+    "api_result": "HTTP 200; latest version file list confirmed filenames, file IDs, published sizes, and MD5 checksums."
+  },
+  "acquisition": {
+    "destination": "data/raw/external/alternaria",
+    "destination_absent_before_download": true,
+    "downloaded_file_count": 3,
+    "expected_total_bytes": 201798652,
+    "actual_total_bytes": 201798652,
+    "download_method": "Official Dataverse API access/datafile/{file_id} endpoints; temporary .download files were size/MD5-verified before moving to final names.",
+    "unofficial_mirrors_used": false,
+    "other_files_downloaded": false,
+    "raw_files_git_ignored": true,
+    "git_check_ignore_rule": ".gitignore: data/raw/",
+    "raw_files_staged": false,
+    "raw_files_committed": false,
+    "files": [
+      {
+        "filename": "1797.npz",
+        "relative_path": "data/raw/external/alternaria/1797.npz",
+        "file_id": 3362,
+        "download_url": "https://dv.dataverse.lv/api/access/datafile/3362",
+        "download_started_utc": "2026-11-26T17:22:24.3754924Z",
+        "published_size_bytes": 68008284,
+        "actual_size_bytes": 68008284,
+        "official_checksum": {
+          "algorithm": "MD5",
+          "value": "e385373eb2407eb1fdf0c7a7e80467e2"
+        },
+        "actual_md5": "e385373eb2407eb1fdf0c7a7e80467e2",
+        "md5_status": "match",
+        "actual_sha256": "602cd4970366c4380e12866b4f4a47d18556f16736ad47d085e15906b425ff10",
+        "download_status": "acquired_and_verified"
+      },
+      {
+        "filename": "1827.npz",
+        "relative_path": "data/raw/external/alternaria/1827.npz",
+        "file_id": 3360,
+        "download_url": "https://dv.dataverse.lv/api/access/datafile/3360",
+        "download_started_utc": "2026-11-26T17:26:22.0566004Z",
+        "published_size_bytes": 66098654,
+        "actual_size_bytes": 66098654,
+        "official_checksum": {
+          "algorithm": "MD5",
+          "value": "703ec0db82405afbd76b4271a1965931"
+        },
+        "actual_md5": "703ec0db82405afbd76b4271a1965931",
+        "md5_status": "match",
+        "actual_sha256": "1b67f776d3a818cd0fc85e17e3cddf9ccb3cb71c832e0ec7737eba0ebb048a80",
+        "download_status": "acquired_and_verified"
+      },
+      {
+        "filename": "1855.npz",
+        "relative_path": "data/raw/external/alternaria/1855.npz",
+        "file_id": 3361,
+        "download_url": "https://dv.dataverse.lv/api/access/datafile/3361",
+        "download_started_utc": "2026-11-26T17:29:59.2351794Z",
+        "published_size_bytes": 67691714,
+        "actual_size_bytes": 67691714,
+        "official_checksum": {
+          "algorithm": "MD5",
+          "value": "c601acf8b0298916a100b99211fac8db"
+        },
+        "actual_md5": "c601acf8b0298916a100b99211fac8db",
+        "md5_status": "match",
+        "actual_sha256": "879d2b1929c6a7a302f3fc35d2617ca4ec855158474796a4a0dd21c2eea4cc4c",
+        "download_status": "acquired_and_verified"
+      }
+    ]
+  },
+  "inspection": {
+    "method": "NumPy NPZ inspection with allow_pickle=False. No array was normalized, clipped, or otherwise modified.",
+    "inspector": "src/data/inspect_alternaria_cubes.py",
+    "per_file": [
+      {
+        "filename": "1797.npz",
+        "keys": [
+          "arr_0"
+        ],
+        "cube_candidate_status": "unambiguous",
+        "cube_key": "arr_0",
+        "cube_shape": [
+          512,
+          512,
+          204
+        ],
+        "dimensions": 3,
+        "dtype": "float16",
+        "element_count": 53477376,
+        "finite_element_count": 53477376,
+        "nan_count": 0,
+        "positive_infinity_count": 0,
+        "negative_infinity_count": 0,
+        "zero_count": 241,
+        "negative_value_count": 0,
+        "above_one_count": 465637,
+        "min_finite": 0.0,
+        "max_finite": 2184.0,
+        "mean_finite": 0.18639528751879755,
+        "std_finite": 2.042186737780351,
+        "array_sha256": "c6f3a616ca1803b91f51482b4a22ba020c37d4ebaef9ad33b796a4ad01e778fb",
+        "wavelength_keys": [],
+        "calibration_or_reference_keys": [],
+        "metadata_keys": []
+      },
+      {
+        "filename": "1827.npz",
+        "keys": [
+          "arr_0"
+        ],
+        "cube_candidate_status": "unambiguous",
+        "cube_key": "arr_0",
+        "cube_shape": [
+          512,
+          512,
+          204
+        ],
+        "dimensions": 3,
+        "dtype": "float16",
+        "element_count": 53477376,
+        "finite_element_count": 53477376,
+        "nan_count": 0,
+        "positive_infinity_count": 0,
+        "negative_infinity_count": 0,
+        "zero_count": 338,
+        "negative_value_count": 0,
+        "above_one_count": 198748,
+        "min_finite": 0.0,
+        "max_finite": 2730.0,
+        "mean_finite": 0.2002481600101615,
+        "std_finite": 4.422753351633344,
+        "array_sha256": "d808c2328e9e4048e2cdadb3e5e01138c5b23e44288ddfca320000c2ef6d7e96",
+        "wavelength_keys": [],
+        "calibration_or_reference_keys": [],
+        "metadata_keys": []
+      },
+      {
+        "filename": "1855.npz",
+        "keys": [
+          "arr_0"
+        ],
+        "cube_candidate_status": "unambiguous",
+        "cube_key": "arr_0",
+        "cube_shape": [
+          512,
+          512,
+          204
+        ],
+        "dimensions": 3,
+        "dtype": "float16",
+        "element_count": 53477376,
+        "finite_element_count": 53477376,
+        "nan_count": 0,
+        "positive_infinity_count": 0,
+        "negative_infinity_count": 0,
+        "zero_count": 30,
+        "negative_value_count": 0,
+        "above_one_count": 444163,
+        "min_finite": 0.0,
+        "max_finite": 1928.0,
+        "mean_finite": 0.2092367639714069,
+        "std_finite": 1.70237263586993,
+        "array_sha256": "fe5f97389fbac796493e58eb24d27e0720793cd876200bc25e80ccf21b6ea021",
+        "wavelength_keys": [],
+        "calibration_or_reference_keys": [],
+        "metadata_keys": []
+      }
+    ],
+    "cross_file": {
+      "cube_count": 3,
+      "all_shapes_match": true,
+      "common_shape": [
+        512,
+        512,
+        204
+      ],
+      "all_dtypes_match": true,
+      "common_dtype": "float16",
+      "exact_duplicate_count": 0,
+      "all_array_hashes_distinct": true,
+      "all_values_finite": true,
+      "wavelength_vector_present": false,
+      "calibration_or_reference_arrays_present": false,
+      "sample_metadata_arrays_present": false
+    },
+    "axis_interpretation": {
+      "npz_axis_metadata_present": false,
+      "likely_layout": [
+        "row",
+        "column",
+        "band"
+      ],
+      "basis": "Observed shape 512x512x204 and source README convention of 512x512x204 with 204 bands.",
+      "confidence": "inferred, not encoded or independently verified",
+      "row_column_orientation_verified": false,
+      "spectral_axis_verified_from_header": false
+    },
+    "distribution_assessment": "All values are finite and nonnegative. Maxima (1928-2730) are much larger than means (0.186-0.209); 198748-465637 values per cube are greater than 1. Units/calibration are unknown, so this is flagged for author clarification, not labeled corruption or reflectance."
+  },
+  "sample_mapping": {
+    "source": "F1 inspection of official metadata.tab, carried forward in the Phase F2.2 audit; mapping is external to these NPZs.",
+    "mapping_confidence": "high for TSV mapping, not encoded in cube files",
+    "all_three_map_to_distinct_plant_ids": true,
+    "all_three_are_inoculated_isolate_groups": true,
+    "public_control_cube_count": 0,
+    "items": [
+      {
+        "filename": "1797.npz",
+        "trial": 4,
+        "plant_id": "065/I",
+        "leaf": "2",
+        "part": "G",
+        "date": "2025-07-07",
+        "source_group": "Alternaria protenta isolate 065"
+      },
+      {
+        "filename": "1827.npz",
+        "trial": 4,
+        "plant_id": "028/IV",
+        "leaf": "2",
+        "part": "2",
+        "date": "2025-07-10",
+        "source_group": "Alternaria protenta isolate 028"
+      },
+      {
+        "filename": "1855.npz",
+        "trial": 4,
+        "plant_id": "028/II",
+        "leaf": "1",
+        "part": "8",
+        "date": "2025-07-14",
+        "source_group": "Alternaria protenta isolate 028"
+      }
+    ],
+    "diagnostic_ground_truth": "No per-cube laboratory assay confirmation or disease severity is present in the NPZ files or established by this metadata join."
+  },
+  "compatibility": {
+    "structural_compatibility": "The arr_0 key, 3D numeric shape, and float16 dtype are structurally compatible with current project conventions.",
+    "wavelength_aware_analysis": "Not currently supportable; no per-cube wavelength vector or header data in NPZs.",
+    "calibrated_reflectance_claim": "Not supported; source description of calibrated cubes is not independently verified from these arrays, references, or processing formula.",
+    "pipeline_changes_made": false,
+    "required_separate_adapter": [
+      "Load source-scoped files without reusing the 2436 wavelength vector.",
+      "Preserve DOI, file ID, trial, plant, isolate, leaf, part, and date via validated metadata join.",
+      "Record wavelength and calibration status as unknown until verified.",
+      "Do not attach Botrytis labels, masks, or reflectance-oriented output semantics."
+    ],
+    "scientific_limitations": [
+      "No control cube is present among the three public NPZ files.",
+      "Only one mapped plant represents isolate 065; all three cubes are from trial 4.",
+      "No wavelength vector, calibration/reference data, or sample metadata arrays are embedded.",
+      "High maxima relative to means and values greater than 1 require radiometric explanation.",
+      "No disease severity or per-cube diagnostic verification was established."
+    ]
+  },
+  "phase_f2_2_correction": {
+    "correction": "The F2.2 JSON and narrative incorrectly stated that one of the three cubes was a control. The listed mappings (065/I, 028/IV, 028/II) and source TSV show all three are inoculated; none maps to a control.",
+    "corrected_files": [
+      "docs/phase_f2_2_alternaria_feasibility_audit.md",
+      "data/processed/reports/phase_f2_2_alternaria_feasibility.json"
+    ],
+    "previous_conclusion_unchanged": "Public cube subset is insufficient for valid classification evaluation."
+  },
+  "zenodo_phase_f3_status": "NO-GO; unchanged from Phase F2.1.",
+  "final_decision": {
+    "decision": "CONDITIONAL GO",
+    "scope": "Source-separated descriptive exploration after the wavelength axis, units, and calibration are author-verified.",
+    "next_phase": [
+      "Request per-file ENVI headers/wavelength vectors, axis mapping, band ordering, bad-band handling, calibration formula, units, and reference associations.",
+      "Ask the authors to explain the large maxima relative to means and verify the external plant/trial/label mapping.",
+      "Obtain additional independent plant cubes, including controls, before any classification design.",
+      "Keep this dataset separate from Botrytis; make no reflectance, prediction, or forecasting claims."
+    ]
+  },
+  "validation": {
+    "focused_test_command": "python -m pytest -q tests/test_alternaria_cube_validation.py",
+    "focused_test_result": "3 passed",
+    "json_csv_validation": "passed; manifest parsed and CSV has three consistent array rows",
+    "git_diff_check": "passed; no staged paths and raw NPZ files are git-ignored",
+    "full_test_suite": "59 passed, 1 existing pytest deprecation warning"
+  }
+}
