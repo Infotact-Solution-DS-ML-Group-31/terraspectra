@@ -18,7 +18,8 @@ from backend.app.api import (
     spectral,
     roi,
     reports,
-    pca
+    pca,
+    clustering
 )
 
 app = FastAPI(
@@ -62,6 +63,7 @@ app.include_router(spectral.router, prefix="/api")
 app.include_router(roi.router, prefix="/api")
 app.include_router(reports.router, prefix="/api")
 app.include_router(pca.router, prefix="/api")
+app.include_router(clustering.router, prefix="/api")
 
 
 @app.get("/")

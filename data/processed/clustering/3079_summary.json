@@ -1,0 +1,464 @@
+{
+  "image_id": "3079",
+  "status": "analyzed",
+  "metadata": {
+    "pathogen": "B. pseudo",
+    "replicate": 4,
+    "sample": 3,
+    "part": "ST-2",
+    "date": "2026-04-02"
+  },
+  "spectral_axis": {
+    "axis_type": "zero_based_band_index",
+    "axis_label": "Zero-based band index",
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      201,
+      202,
+      203
+    ],
+    "calibration_status": "No verified wavelength calibration for image 3079."
+  },
+  "valid_pixel_count": 53330,
+  "fit_sample_count": 20000,
+  "silhouette_sample_size": 5000,
+  "k_values": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "k_results": {
+    "2": {
+      "k": 2,
+      "inertia_standardized": 2834852.75,
+      "silhouette_score": 0.402255,
+      "silhouette_sample_size": 5000,
+      "cluster_sizes": [
+        {
+          "cluster_id": 0,
+          "pixel_count": 45003,
+          "percentage": 84.3859,
+          "mean_within_cluster_std": 0.061656
+        },
+        {
+          "cluster_id": 1,
+          "pixel_count": 8327,
+          "percentage": 15.6141,
+          "mean_within_cluster_std": 0.083298
+        }
+      ],
+      "seed_stability_ari_mean": 0.998324,
+      "seed_stability_ari_min": 0.998324,
+      "spatial_block_stability_ari": 0.533822,
+      "posthoc_roi_comparison": {
+        "note": "Post-hoc exploratory comparison only. Visual ROI annotations are not laboratory-confirmed disease labels and were NOT used during clustering.",
+        "contingency_counts": {
+          "visible_lesion": {
+            "cluster_0": 3107,
+            "cluster_1": 1030
+          },
+          "adjacent_unaffected": {
+            "cluster_0": 14286,
+            "cluster_1": 4375
+          },
+          "comparison_stem": {
+            "cluster_0": 27610,
+            "cluster_1": 2922
+          }
+        },
+        "adjusted_rand_index_vs_visual_roi": 0.066405,
+        "normalized_mutual_info_vs_visual_roi": 0.028022
+      }
+    },
+    "3": {
+      "k": 3,
+      "inertia_standardized": 1941208.625,
+      "silhouette_score": 0.445704,
+      "silhouette_sample_size": 5000,
+      "cluster_sizes": [
+        {
+          "cluster_id": 0,
+          "pixel_count": 7815,
+          "percentage": 14.654,
+          "mean_within_cluster_std": 0.08315
+        },
+        {
+          "cluster_id": 1,
+          "pixel_count": 4831,
+          "percentage": 9.0587,
+          "mean_within_cluster_std": 0.066056
+        },
+        {
+          "cluster_id": 2,
+          "pixel_count": 40684,
+          "percentage": 76.2873,
+          "mean_within_cluster_std": 0.047123
+        }
+      ],
+      "seed_stability_ari_mean": 0.999657,
+      "seed_stability_ari_min": 0.999315,
+      "spatial_block_stability_ari": 0.654451,
+      "posthoc_roi_comparison": {
+        "note": "Post-hoc exploratory comparison only. Visual ROI annotations are not laboratory-confirmed disease labels and were NOT used during clustering.",
+        "contingency_counts": {
+          "visible_lesion": {
+            "cluster_0": 924,
+            "cluster_1": 3212,
+            "cluster_2": 1
+          },
+          "adjacent_unaffected": {
+            "cluster_0": 4062,
+            "cluster_1": 929,
+            "cluster_2": 13670
+          },
+          "comparison_stem": {
+            "cluster_0": 2829,
+            "cluster_1": 690,
+            "cluster_2": 27013
+          }
+        },
+        "adjusted_rand_index_vs_visual_roi": 0.220606,
+        "normalized_mutual_info_vs_visual_roi": 0.224642
+      }
+    },
+    "4": {
+      "k": 4,
+      "inertia_standardized": 1465057.375,
+      "silhouette_score": 0.319675,
+      "silhouette_sample_size": 5000,
+      "cluster_sizes": [
+        {
+          "cluster_id": 0,
+          "pixel_count": 21723,
+          "percentage": 40.7332,
+          "mean_within_cluster_std": 0.044386
+        },
+        {
+          "cluster_id": 1,
+          "pixel_count": 24629,
+          "percentage": 46.1823,
+          "mean_within_cluster_std": 0.039163
+        },
+        {
+          "cluster_id": 2,
+          "pixel_count": 4622,
+          "percentage": 8.6668,
+          "mean_within_cluster_std": 0.062364
+        },
+        {
+          "cluster_id": 3,
+          "pixel_count": 2356,
+          "percentage": 4.4178,
+          "mean_within_cluster_std": 0.075562
+        }
+      ],
+      "seed_stability_ari_mean": 0.999545,
+      "seed_stability_ari_min": 0.999454,
+      "spatial_block_stability_ari": 0.91572,
+      "posthoc_roi_comparison": {
+        "note": "Post-hoc exploratory comparison only. Visual ROI annotations are not laboratory-confirmed disease labels and were NOT used during clustering.",
+        "contingency_counts": {
+          "visible_lesion": {
+            "cluster_0": 302,
+            "cluster_1": 0,
+            "cluster_2": 3220,
+            "cluster_3": 615
+          },
+          "adjacent_unaffected": {
+            "cluster_0": 9832,
+            "cluster_1": 7704,
+            "cluster_2": 886,
+            "cluster_3": 239
+          },
+          "comparison_stem": {
+            "cluster_0": 11589,
+            "cluster_1": 16925,
+            "cluster_2": 516,
+            "cluster_3": 1502
+          }
+        },
+        "adjusted_rand_index_vs_visual_roi": 0.124301,
+        "normalized_mutual_info_vs_visual_roi": 0.186274
+      }
+    },
+    "5": {
+      "k": 5,
+      "inertia_standardized": 1214620.5,
+      "silhouette_score": 0.329467,
+      "silhouette_sample_size": 5000,
+      "cluster_sizes": [
+        {
+          "cluster_id": 0,
+          "pixel_count": 20143,
+          "percentage": 37.7705,
+          "mean_within_cluster_std": 0.04031
+        },
+        {
+          "cluster_id": 1,
+          "pixel_count": 5889,
+          "percentage": 11.0426,
+          "mean_within_cluster_std": 0.055581
+        },
+        {
+          "cluster_id": 2,
+          "pixel_count": 2225,
+          "percentage": 4.1721,
+          "mean_within_cluster_std": 0.074282
+        },
+        {
+          "cluster_id": 3,
+          "pixel_count": 22601,
+          "percentage": 42.3795,
+          "mean_within_cluster_std": 0.036683
+        },
+        {
+          "cluster_id": 4,
+          "pixel_count": 2472,
+          "percentage": 4.6353,
+          "mean_within_cluster_std": 0.045256
+        }
+      ],
+      "seed_stability_ari_mean": 1.0,
+      "seed_stability_ari_min": 1.0,
+      "spatial_block_stability_ari": 0.8195,
+      "posthoc_roi_comparison": {
+        "note": "Post-hoc exploratory comparison only. Visual ROI annotations are not laboratory-confirmed disease labels and were NOT used during clustering.",
+        "contingency_counts": {
+          "visible_lesion": {
+            "cluster_0": 36,
+            "cluster_1": 1219,
+            "cluster_2": 557,
+            "cluster_3": 0,
+            "cluster_4": 2325
+          },
+          "adjacent_unaffected": {
+            "cluster_0": 8763,
+            "cluster_1": 2829,
+            "cluster_2": 226,
+            "cluster_3": 6747,
+            "cluster_4": 96
+          },
+          "comparison_stem": {
+            "cluster_0": 11344,
+            "cluster_1": 1841,
+            "cluster_2": 1442,
+            "cluster_3": 15854,
+            "cluster_4": 51
+          }
+        },
+        "adjusted_rand_index_vs_visual_roi": 0.121649,
+        "normalized_mutual_info_vs_visual_roi": 0.187729
+      }
+    }
+  },
+  "artifacts": {
+    "npz": "data/processed/clustering/3079_clustering.npz",
+    "figures": {
+      "spatial_maps": "outputs/figures/3079_clustering_spatial_maps.png",
+      "spectral_profiles": "outputs/figures/3079_clustering_spectral_profiles.png",
+      "metrics_and_sizes": "outputs/figures/3079_clustering_metrics_and_sizes.png",
+      "roi_posthoc_comparison": "outputs/figures/3079_clustering_roi_posthoc_comparison.png"
+    }
+  }
+}

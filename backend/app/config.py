@@ -20,6 +20,7 @@ REPORTS_DIR = PROCESSED_DIR / "reports"
 SEGMENTATION_DIR = PROCESSED_DIR / "segmentation"
 METADATA_PROCESSED_DIR = PROCESSED_DIR / "metadata"
 PCA_DIR = PROCESSED_DIR / "pca"
+CLUSTERING_DIR = PROCESSED_DIR / "clustering"
 
 # Outputs and docs
 OUTPUTS_DIR = PROJECT_ROOT / "outputs"

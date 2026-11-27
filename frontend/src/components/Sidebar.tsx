@@ -8,6 +8,7 @@ import {
   ClipboardList,
   Microscope,
   ScanLine,
+  Boxes,
 } from 'lucide-react';
 import type { ViewId } from '../types/api';
 
@@ -23,6 +24,7 @@ const NAV_ITEMS: NavItem[] = [
   { id: 'spectral-analytics', label: 'Spectral Analytics', icon: <LineChart size={18} /> },
   { id: 'roi-comparison', label: 'ROI Comparison', icon: <Layers size={18} /> },
   { id: 'pca-analysis', label: 'PCA Analysis', icon: <ScanLine size={18} /> },
+  { id: 'clustering', label: 'Exploratory Clustering', icon: <Boxes size={18} /> },
   { id: 'quality-reports', label: 'Quality & Reports', icon: <ClipboardList size={18} /> },
 ];
 

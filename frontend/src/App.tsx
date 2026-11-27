@@ -6,6 +6,7 @@ import { SpectralAnalyticsView } from './views/SpectralAnalyticsView';
 import { RoiComparisonView } from './views/RoiComparisonView';
 import { QualityReportsView } from './views/QualityReportsView';
 import { PcaAnalysisView } from './views/PcaAnalysisView';
+import { ClusteringView } from './views/ClusteringView';
 import { api } from './api/client';
 import type { ViewId } from './types/api';
 
@@ -33,6 +34,8 @@ function App() {
         return <QualityReportsView />;
       case 'pca-analysis':
         return <PcaAnalysisView />;
+      case 'clustering':
+        return <ClusteringView />;
       default:
         return <OverviewView />;
     }

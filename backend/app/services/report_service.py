@@ -58,6 +58,20 @@ REPORTS_CATALOG = [
         "type": "markdown",
         "description": "Full scientific markdown report on morphological erosion and spatial block aggregation.",
         "path": DOCS_DIR / "3079_spectral_robustness_report.md"
+    },
+    {
+        "id": "phase_f3_unsupervised_clustering",
+        "title": "Phase F3 Unsupervised Clustering Results (JSON)",
+        "type": "json",
+        "description": "Experiment configuration, K=2..5 silhouette, stability ARI, and post-hoc ROI comparison.",
+        "path": REPORTS_DIR / "phase_f3_unsupervised_clustering.json"
+    },
+    {
+        "id": "phase_f3_unsupervised_clustering_report",
+        "title": "Phase F3 Unsupervised Spectral Learning Report",
+        "type": "markdown",
+        "description": "Methodology, per-cube results, stability findings, and scientific limitations for Phase F3.",
+        "path": DOCS_DIR / "phase_f3_unsupervised_clustering.md"
     }
 ]
 

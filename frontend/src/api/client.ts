@@ -16,6 +16,9 @@ import type {
   PcaExplainedVarianceResponse,
   PcaLoadingResponse,
   PcaSpatialScoresResponse,
+  ClusteringCubeSummary,
+  ClusteringProfilesResponse,
+  ClusteringSpatialMapResponse,
 } from '../types/api';
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -76,4 +79,16 @@ export const api = {
 
   getPcaSpatialScores: (imageId: string, maxSize = 64): Promise<PcaSpatialScoresResponse> =>
     apiFetch(`/api/pca/${imageId}/spatial-scores?max_size=${maxSize}`),
+
+  listClusteringCubes: (): Promise<ClusteringCubeSummary[]> =>
+    apiFetch('/api/clustering/cubes'),
+
+  getClusteringSummary: (imageId: string): Promise<ClusteringCubeSummary> =>
+    apiFetch(`/api/clustering/${imageId}/summary`),
+
+  getClusteringProfiles: (imageId: string, k = 3): Promise<ClusteringProfilesResponse> =>
+    apiFetch(`/api/clustering/${imageId}/profiles?k=${k}`),
+
+  getClusteringSpatialMap: (imageId: string, k = 3, maxSize = 64): Promise<ClusteringSpatialMapResponse> =>
+    apiFetch(`/api/clustering/${imageId}/spatial-map?k=${k}&max_size=${maxSize}`),
 };

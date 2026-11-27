@@ -133,6 +133,7 @@ export type ViewId =
   | 'spectral-analytics'
   | 'roi-comparison'
   | 'pca-analysis'
+  | 'clustering'
   | 'quality-reports';
 
 export type CubeId = '2436' | '2973' | '3079';
@@ -204,4 +205,89 @@ export interface PcaSpatialScoresResponse {
   downsampled_height: number;
   data: PcaSpatialPoint[];
   spectral_axis: PcaSpectralAxis;
+}
+
+// ─────────────────────────── Clustering (Phase F3) ────────────────────────
+export interface ClusteringSpectralAxis {
+  axis_type: 'wavelength_nm' | 'zero_based_band_index';
+  axis_label: string;
+  values: number[];
+  calibration_status: string;
+}
+
+export interface ClusterSizeInfo {
+  cluster_id: number;
+  pixel_count: number;
+  percentage: number;
+  mean_within_cluster_std: number;
+}
+
+export interface PosthocRoiComparison {
+  note: string;
+  contingency_counts: Record<string, Record<string, number>>;
+  adjusted_rand_index_vs_visual_roi: number | null;
+  normalized_mutual_info_vs_visual_roi: number | null;
+}
+
+export interface ClusteringKResult {
+  k: number;
+  inertia_standardized: number;
+  silhouette_score: number | null;
+  silhouette_sample_size: number;
+  cluster_sizes: ClusterSizeInfo[];
+  seed_stability_ari_mean: number | null;
+  seed_stability_ari_min: number | null;
+  spatial_block_stability_ari: number | null;
+  posthoc_roi_comparison?: PosthocRoiComparison | null;
+}
+
+export interface ClusteringCubeSummary {
+  image_id: string;
+  status: 'analyzed' | 'skipped';
+  available: boolean;
+  reason?: string | null;
+  spectral_axis?: ClusteringSpectralAxis | null;
+  valid_pixel_count?: number | null;
+  fit_sample_count?: number | null;
+  silhouette_sample_size?: number | null;
+  k_values: number[];
+  k_results: Record<string, ClusteringKResult>;
+  scientific_disclaimer: string;
+}
+
+export interface ClusterProfileSeries {
+  cluster_id: number;
+  pixel_count: number;
+  percentage: number;
+  mean_profile: number[];
+  std_profile: number[];
+}
+
+export interface ClusteringProfilesResponse {
+  image_id: string;
+  k: number;
+  independent_fit: boolean;
+  spectral_axis: ClusteringSpectralAxis;
+  clusters: ClusterProfileSeries[];
+  scientific_disclaimer: string;
+}
+
+export interface ClusteringSpatialPoint {
+  row: number;
+  column: number;
+  cluster_id: number | null;
+  valid_pixel_count: number;
+}
+
+export interface ClusteringSpatialMapResponse {
+  image_id: string;
+  k: number;
+  independent_fit: boolean;
+  width: number;
+  height: number;
+  downsampled_width: number;
+  downsampled_height: number;
+  data: ClusteringSpatialPoint[];
+  spectral_axis: ClusteringSpectralAxis;
+  scientific_disclaimer: string;
 }

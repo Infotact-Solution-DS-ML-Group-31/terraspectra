@@ -1,0 +1,293 @@
+{
+  "phase": "F3.1",
+  "audit_date": "2026-11-27",
+  "runtime_seconds": 142.285,
+  "methodological_findings": [
+    {
+      "id": "F3.1-M1",
+      "severity": "moderate",
+      "area": "Checkerboard spatial stability",
+      "finding": "The Phase F3 64x64 checkerboard split allows direct edge adjacency between even and odd tiles (1-pixel separation) and fits StandardScaler on the combined even+odd sample before splitting."
+    },
+    {
+      "id": "F3.1-M2",
+      "severity": "low",
+      "area": "Silhouette subsampling",
+      "finding": "Silhouette is computed on a random 5,000-pixel subsample of the 20,000-pixel fit sample using standardized Euclidean distance in 204 dimensions. Sensitivity checks across multiple seeds and N=10,000 confirm stability of the score."
+    },
+    {
+      "id": "F3.1-M3",
+      "severity": "informational",
+      "area": "Preprocessing & scientific boundaries",
+      "finding": "Quality masks, non-finite filtering, per-cube isolation, zero-based band indices for 3079, and post-hoc-only ROI comparison were all verified without discrepancies."
+    }
+  ],
+  "cubes": {
+    "2436": {
+      "reproducibility": {
+        "valid_pixel_count_match": true,
+        "exact_cluster_map_match": {
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": true
+        },
+        "exact_silhouette_match": {
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": true
+        },
+        "all_exact_match": true
+      },
+      "silhouette_sensitivity": {
+        "2": {
+          "euclidean_n5000_seeds_43_100_200": [
+            0.275057,
+            0.282262,
+            0.277225
+          ],
+          "euclidean_n5000_std": 0.003018,
+          "euclidean_n10000": 0.277602,
+          "cosine_n5000": 0.465211
+        },
+        "3": {
+          "euclidean_n5000_seeds_43_100_200": [
+            0.342814,
+            0.346808,
+            0.348476
+          ],
+          "euclidean_n5000_std": 0.002376,
+          "euclidean_n10000": 0.346912,
+          "cosine_n5000": 0.188361
+        },
+        "4": {
+          "euclidean_n5000_seeds_43_100_200": [
+            0.281726,
+            0.284449,
+            0.285577
+          ],
+          "euclidean_n5000_std": 0.001616,
+          "euclidean_n10000": 0.283955,
+          "cosine_n5000": 0.169129
+        },
+        "5": {
+          "euclidean_n5000_seeds_43_100_200": [
+            0.287906,
+            0.286282,
+            0.290581
+          ],
+          "euclidean_n5000_std": 0.001772,
+          "euclidean_n10000": 0.288496,
+          "cosine_n5000": 0.131622
+        }
+      },
+      "contiguous_spatial_validation": {
+        "north_to_south_buffered": {
+          "feasible": true,
+          "buffer_pixels": 32,
+          "train_pixels": 21415,
+          "val_pixels": 21556,
+          "k_metrics": {
+            "2": {
+              "ari_train_vs_full_on_val": 0.243102,
+              "ari_train_vs_indep_val": 0.038785
+            },
+            "3": {
+              "ari_train_vs_full_on_val": 0.206583,
+              "ari_train_vs_indep_val": 0.209062
+            },
+            "4": {
+              "ari_train_vs_full_on_val": 0.226796,
+              "ari_train_vs_indep_val": 0.555254
+            },
+            "5": {
+              "ari_train_vs_full_on_val": 0.212596,
+              "ari_train_vs_indep_val": 0.330201
+            }
+          }
+        },
+        "west_to_east_buffered": {
+          "feasible": true,
+          "buffer_pixels": 32,
+          "train_pixels": 23272,
+          "val_pixels": 23576,
+          "k_metrics": {
+            "2": {
+              "ari_train_vs_full_on_val": -0.063915,
+              "ari_train_vs_indep_val": 0.105763
+            },
+            "3": {
+              "ari_train_vs_full_on_val": 0.651249,
+              "ari_train_vs_indep_val": 0.237108
+            },
+            "4": {
+              "ari_train_vs_full_on_val": 0.769742,
+              "ari_train_vs_indep_val": 0.116102
+            },
+            "5": {
+              "ari_train_vs_full_on_val": 0.811851,
+              "ari_train_vs_indep_val": 0.266969
+            }
+          }
+        }
+      },
+      "cluster_k3_nuisance_profile": {
+        "cluster_0": {
+          "pixel_count": 13883,
+          "mean_all_band_intensity": 0.22678,
+          "pixel_mean_intensity_std": 0.01685,
+          "pixels_with_any_band_gt_1_pct": 0.0,
+          "measurements_gt_1_pct": 0.0
+        },
+        "cluster_1": {
+          "pixel_count": 36653,
+          "mean_all_band_intensity": 0.26429,
+          "pixel_mean_intensity_std": 0.01252,
+          "pixels_with_any_band_gt_1_pct": 0.0,
+          "measurements_gt_1_pct": 0.0
+        },
+        "cluster_2": {
+          "pixel_count": 3157,
+          "mean_all_band_intensity": 0.29681,
+          "pixel_mean_intensity_std": 0.03063,
+          "pixels_with_any_band_gt_1_pct": 0.0,
+          "measurements_gt_1_pct": 0.0
+        }
+      }
+    },
+    "3079": {
+      "reproducibility": {
+        "valid_pixel_count_match": true,
+        "exact_cluster_map_match": {
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": true
+        },
+        "exact_silhouette_match": {
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": true
+        },
+        "all_exact_match": true
+      },
+      "silhouette_sensitivity": {
+        "2": {
+          "euclidean_n5000_seeds_43_100_200": [
+            0.402255,
+            0.403746,
+            0.407697
+          ],
+          "euclidean_n5000_std": 0.002296,
+          "euclidean_n10000": 0.405905,
+          "cosine_n5000": 0.301278
+        },
+        "3": {
+          "euclidean_n5000_seeds_43_100_200": [
+            0.445704,
+            0.451198,
+            0.446954
+          ],
+          "euclidean_n5000_std": 0.002351,
+          "euclidean_n10000": 0.448025,
+          "cosine_n5000": 0.225901
+        },
+        "4": {
+          "euclidean_n5000_seeds_43_100_200": [
+            0.319675,
+            0.328498,
+            0.323253
+          ],
+          "euclidean_n5000_std": 0.003623,
+          "euclidean_n10000": 0.323321,
+          "cosine_n5000": 0.273992
+        },
+        "5": {
+          "euclidean_n5000_seeds_43_100_200": [
+            0.329467,
+            0.334934,
+            0.332989
+          ],
+          "euclidean_n5000_std": 0.002263,
+          "euclidean_n10000": 0.331,
+          "cosine_n5000": 0.277233
+        }
+      },
+      "contiguous_spatial_validation": {
+        "north_to_south_buffered": {
+          "feasible": true,
+          "buffer_pixels": 32,
+          "train_pixels": 25451,
+          "val_pixels": 25560,
+          "k_metrics": {
+            "2": {
+              "ari_train_vs_full_on_val": 0.480914,
+              "ari_train_vs_indep_val": 0.539209
+            },
+            "3": {
+              "ari_train_vs_full_on_val": 0.857093,
+              "ari_train_vs_indep_val": 0.136582
+            },
+            "4": {
+              "ari_train_vs_full_on_val": 0.755457,
+              "ari_train_vs_indep_val": 0.289242
+            },
+            "5": {
+              "ari_train_vs_full_on_val": 0.658217,
+              "ari_train_vs_indep_val": 0.249731
+            }
+          }
+        },
+        "west_to_east_buffered": {
+          "feasible": true,
+          "buffer_pixels": 32,
+          "train_pixels": 18754,
+          "val_pixels": 23268,
+          "k_metrics": {
+            "2": {
+              "ari_train_vs_full_on_val": 0.46063,
+              "ari_train_vs_indep_val": 0.033404
+            },
+            "3": {
+              "ari_train_vs_full_on_val": 0.26729,
+              "ari_train_vs_indep_val": 0.214234
+            },
+            "4": {
+              "ari_train_vs_full_on_val": 0.404581,
+              "ari_train_vs_indep_val": 0.286038
+            },
+            "5": {
+              "ari_train_vs_full_on_val": 0.485741,
+              "ari_train_vs_indep_val": 0.363193
+            }
+          }
+        }
+      },
+      "cluster_k3_nuisance_profile": {
+        "cluster_0": {
+          "pixel_count": 7815,
+          "mean_all_band_intensity": 0.29558,
+          "pixel_mean_intensity_std": 0.06743,
+          "pixels_with_any_band_gt_1_pct": 0.0,
+          "measurements_gt_1_pct": 0.0
+        },
+        "cluster_1": {
+          "pixel_count": 4831,
+          "mean_all_band_intensity": 0.41579,
+          "pixel_mean_intensity_std": 0.04333,
+          "pixels_with_any_band_gt_1_pct": 0.021,
+          "measurements_gt_1_pct": 0.0
+        },
+        "cluster_2": {
+          "pixel_count": 40684,
+          "mean_all_band_intensity": 0.42928,
+          "pixel_mean_intensity_std": 0.03765,
+          "pixels_with_any_band_gt_1_pct": 2.576,
+          "measurements_gt_1_pct": 0.232
+        }
+      }
+    }
+  }
+}
